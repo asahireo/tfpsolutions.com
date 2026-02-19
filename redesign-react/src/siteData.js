@@ -61,22 +61,37 @@ export const navMenuItems = [
     label: 'Products',
     subMenus: [
       {
-        title: 'Products & Services',
+        title: 'Payments',
         items: [
           { label: 'Payment Gateway', href: '/payment-gateway/', description: 'Online payment processing stack.' },
           { label: 'Payment Terminal & POS', href: '/payment-terminal/', description: 'Payment terminal and POS solutions.' },
           { label: 'MiPay Wallet App', href: '/mipay/', description: 'Digital payment and wallet app ecosystem.' },
           { label: 'E-Wallet Integration', href: '/e-wallet-integration/', description: 'Real-time integration with e-wallet systems.' },
           { label: 'Micro Lending', href: '/micro-lending/', description: 'Accessible lending solutions for underserved markets.' },
+        ],
+      },
+      {
+        title: 'Workforce',
+        items: [
           { label: 'SmartHR Payroll', href: '/smarthr-payroll/', description: 'Payroll and workforce administration platform.' },
           { label: 'E-Wages', href: '/e-wages/', description: 'Digital wage payment ecosystem.' },
           { label: 'Recruitment Services', href: '/recruitment-service/', description: 'Recruitment, onboarding, and workforce exchange services.' },
           { label: 'FWeX Workforce Exchange', href: '/fwex/', description: 'Digital exchange platform supporting foreign worker ecosystems.' },
           { label: 'OneSchool Cashback Platform', href: '/oneschool/', description: 'Community commerce and cashback platform.' },
+        ],
+      },
+      {
+        title: 'Enterprise',
+        items: [
           { label: 'SAP Business One', href: '/sap-2/', description: 'ERP licensing, deployment, and implementation services.' },
           { label: 'e-Invoice', href: '/e-invoice/', description: 'Electronic invoicing solutions.' },
           { label: 'Usahawan Digital', href: '/usahawan-digital/', description: 'Digital merchant enablement program for inclusive communities.' },
           { label: 'Cyber Security', href: '/cyber-security/', description: 'Managed security and cyber defense operations services.' },
+        ],
+      },
+      {
+        title: 'Platforms',
+        items: [
           { label: 'XPAT Jobs', href: 'https://xpat.com.my/', description: 'Jobs and workforce services for expatriates and foreign workers.', target: '_blank' },
           { label: 'S4S Sim & Wallet Apps', href: 'https://xpat.com.my/sim-plans', description: 'Connectivity and wallet solutions for workforce users.', target: '_blank' },
         ],

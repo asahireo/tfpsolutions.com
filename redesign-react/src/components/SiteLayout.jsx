@@ -1,8 +1,7 @@
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import { DropdownNavigation } from './DropdownNavigation'
-import { MobileMenu } from './MobileMenu'
-import { navMenuItems, mobileNavLinks, footerLinks } from '../siteData'
+import { navMenuItems, footerLinks } from '../siteData'
 
 function normalizePathname(pathname) {
   // Treat trailing slash as optional for active-state comparisons.
@@ -42,7 +41,6 @@ export function SiteLayout({ children }) {
             <span>TFP Solutions Berhad</span>
           </a>
           <DropdownNavigation navItems={navMenuItems} activePath={activePath} />
-          <MobileMenu links={mobileNavLinks} />
         </div>
       </header>
 

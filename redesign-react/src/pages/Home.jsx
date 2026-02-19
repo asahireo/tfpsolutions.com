@@ -72,19 +72,19 @@ export default function Home() {
               description: engine.description,
               href: `/corporate-overview/#structure`,
             }))}
-            maxVisible={5}
-            cardWidth={520}
-            cardHeight={270}
-            overlap={0.52}
-            spreadDeg={44}
+            maxVisible={3}
+            cardWidth={480}
+            cardHeight={252}
+            overlap={0.22}
+            spreadDeg={20}
             depthPx={130}
-            tiltXDeg={12}
-            activeLiftPx={16}
-            activeScale={1.02}
-            inactiveScale={0.95}
+            tiltXDeg={6}
+            activeLiftPx={8}
+            activeScale={1}
+            inactiveScale={0.86}
             showDots={true}
-            renderCard={(item) => (
-              <div className="service-card service-card-stack">
+            renderCard={(item, meta) => (
+              <div className={`service-card service-card-stack ${meta?.active ? 'is-active' : 'is-inactive'}`}>
                 <ServiceIcon name={item.title} />
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>
