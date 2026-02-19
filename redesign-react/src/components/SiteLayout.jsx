@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { useLocation } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 import { DropdownNavigation } from './DropdownNavigation'
 import { navMenuItems, footerLinks } from '../siteData'
 
@@ -11,6 +11,30 @@ function normalizePathname(pathname) {
 
 export function SiteLayout({ children }) {
   const location = useLocation()
+  const navigate = useNavigate()
+
+  useEffect(() => {
+    // Keep root-relative links inside the SPA on GitHub Pages project URLs.
+    const onDocumentClick = (event) => {
+      if (event.defaultPrevented) return
+      if (event.button !== 0) return
+      if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return
+
+      const anchor = event.target.closest?.('a[href]')
+      if (!anchor) return
+      if (anchor.target && anchor.target !== '_self') return
+      if (anchor.hasAttribute('download')) return
+
+      const href = anchor.getAttribute('href')
+      if (!href || !href.startsWith('/') || href.startsWith('//')) return
+
+      event.preventDefault()
+      navigate(href)
+    }
+
+    document.addEventListener('click', onDocumentClick)
+    return () => document.removeEventListener('click', onDocumentClick)
+  }, [navigate])
 
   useEffect(() => {
     const hash = location.hash?.trim()

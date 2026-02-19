@@ -29,8 +29,13 @@ import NotFound from './pages/NotFound'
 import './styles.css'
 
 export default function App() {
+  const routerBasename =
+    import.meta.env.BASE_URL && import.meta.env.BASE_URL !== '/'
+      ? import.meta.env.BASE_URL.replace(/\/$/, '')
+      : undefined
+
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={routerBasename}>
       <SiteLayout>
         <Routes>
           <Route path="/" element={<Home />} />
