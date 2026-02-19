@@ -44,9 +44,7 @@ export function SiteLayout({ children }) {
         </div>
       </header>
 
-      <div className="site-content">
-        {children}
-      </div>
+      {children}
 
       <footer className="site-footer">
         <div className="container">
