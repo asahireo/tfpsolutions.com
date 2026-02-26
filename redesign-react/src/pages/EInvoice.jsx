@@ -1,6 +1,6 @@
 import { AnimatedSection } from '../components/AnimatedSection'
 import { FileCheck2, ArrowLeftRight, Landmark, BarChart3, ShieldCheck, Workflow } from 'lucide-react'
-import { featuredProductSpotlight } from '../siteData'
+import { productTikTokEmbeds } from '../siteData'
 
 const pillars = [
   { title: 'Compliance First', desc: 'Built to support tax and e-invoicing compliance requirements.' },
@@ -109,22 +109,12 @@ export default function EInvoice() {
                     <h4>Platform Walkthrough</h4>
                     <div className="pg-hero-tiktok-frame">
                       <iframe
-                        src={featuredProductSpotlight.tiktokEmbedUrl}
+                        src={productTikTokEmbeds.eInvoice}
                         title="e-Invoice Overview"
                         allow="encrypted-media; picture-in-picture"
                         loading="lazy"
                       />
                     </div>
-                  </article>
-                  <article className="pg-hero-block pg-hero-block-mini pg-hero-media-card">
-                    <h4>Invoice Flow Visual</h4>
-                    <img
-                      className="pg-hero-product-image"
-                      src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80&w=1200"
-                      alt="Electronic invoicing workflow dashboard"
-                      loading="lazy"
-                    />
-                    <p>Clear view of invoice validation, status tracking, and settlement stages.</p>
                   </article>
                 </div>
               </div>

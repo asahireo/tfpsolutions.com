@@ -116,16 +116,6 @@ export default function RecruitmentService() {
                       />
                     </div>
                   </article>
-                  <article className="pg-hero-block pg-hero-block-mini pg-hero-media-card">
-                    <h4>Recruitment Operations Visual</h4>
-                    <img
-                      className="pg-hero-product-image"
-                      src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=1200"
-                      alt="Recruitment and workforce management workflow"
-                      loading="lazy"
-                    />
-                    <p>Track progress from hiring intake through onboarding and service delivery.</p>
-                  </article>
                 </div>
               </div>
             </div>

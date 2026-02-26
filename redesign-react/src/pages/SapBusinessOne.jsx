@@ -116,16 +116,6 @@ export default function SapBusinessOne() {
                       />
                     </div>
                   </article>
-                  <article className="pg-hero-block pg-hero-block-mini pg-hero-media-card">
-                    <h4>ERP Operations Visual</h4>
-                    <img
-                      className="pg-hero-product-image"
-                      src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1200"
-                      alt="ERP analytics and operations dashboard"
-                      loading="lazy"
-                    />
-                    <p>Visibility across procurement, inventory, and operational performance.</p>
-                  </article>
                 </div>
               </div>
             </div>

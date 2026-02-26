@@ -116,16 +116,6 @@ export default function CyberSecurity() {
                       />
                     </div>
                   </article>
-                  <article className="pg-hero-block pg-hero-block-mini pg-hero-media-card">
-                    <h4>Threat Monitoring Visual</h4>
-                    <img
-                      className="pg-hero-product-image"
-                      src="https://images.unsplash.com/photo-1510511459019-5dda7724fd87?auto=format&fit=crop&q=80&w=1200"
-                      alt="Security operations dashboard"
-                      loading="lazy"
-                    />
-                    <p>Real-time visibility into system health, threats, and response status.</p>
-                  </article>
                 </div>
               </div>
             </div>

@@ -65,8 +65,7 @@ export const navMenuItems = [
         items: [
           { label: 'Payment Gateway', href: '/payment-gateway/', description: 'Online payment processing stack.' },
           { label: 'Payment Terminal & POS', href: '/payment-terminal/', description: 'Payment terminal and POS solutions.' },
-          { label: 'MiPay Wallet App', href: '/mipay/', description: 'Digital payment and wallet app ecosystem.' },
-          { label: 'E-Wallet Integration', href: '/e-wallet-integration/', description: 'Real-time integration with e-wallet systems.' },
+          { label: 'E-Wallet Integration (MiPay)', href: '/e-wallet-integration/', description: 'Unified MiPay wallet app and real-time e-wallet integration stack.' },
           { label: 'Micro Lending', href: '/micro-lending/', description: 'Accessible lending solutions for underserved markets.' },
         ],
       },
@@ -75,9 +74,7 @@ export const navMenuItems = [
         items: [
           { label: 'SmartHR Payroll', href: '/smarthr-payroll/', description: 'Payroll and workforce administration platform.' },
           { label: 'E-Wages', href: '/e-wages/', description: 'Digital wage payment ecosystem.' },
-          { label: 'Recruitment Services', href: '/recruitment-service/', description: 'Recruitment, onboarding, and workforce exchange services.' },
-          { label: 'FWeX Workforce Exchange', href: '/fwex/', description: 'Digital exchange platform supporting foreign worker ecosystems.' },
-          { label: 'OneSchool Cashback Platform', href: '/oneschool/', description: 'Community commerce and cashback platform.' },
+          { label: 'FoWeX Networking', href: '/fwex/', description: 'Combined recruitment, onboarding, and workforce networking platform.' },
         ],
       },
       {
@@ -85,8 +82,6 @@ export const navMenuItems = [
         items: [
           { label: 'SAP Business One', href: '/sap-2/', description: 'ERP licensing, deployment, and implementation services.' },
           { label: 'e-Invoice', href: '/e-invoice/', description: 'Electronic invoicing solutions.' },
-          { label: 'Usahawan Digital', href: '/usahawan-digital/', description: 'Digital merchant enablement program for inclusive communities.' },
-          { label: 'Cyber Security', href: '/cyber-security/', description: 'Managed security and cyber defense operations services.' },
         ],
       },
       {
@@ -140,14 +135,12 @@ export const growthIntegratedEngines = [
         products: [
           { name: 'Payment Gateway', href: '/payment-gateway/', desc: 'Seamless online payment processing infrastructure.' },
           { name: 'Payment & POS Terminal & Solutions', href: '/payment-terminal/', desc: 'Secure payment terminal and POS solutions for business operations.' },
-          { name: 'MiPay Prepaid Mastercard & App', href: '/mipay/', desc: 'Next-gen mobile payment and digital wallet solutions.' },
         ],
       },
       {
         name: 'OneCENT',
         products: [
-          { name: 'Digital Community Platform (Multi-Level Cashback)', href: '/oneschool/', desc: 'Community platform with multi-level cashback rewards.' },
-          { name: 'Real-Time e-Wallet Integration', href: '/e-wallet-integration/', desc: 'Real-time system integration with major e-wallets.' },
+          { name: 'E-Wallet Integration (MiPay)', href: '/e-wallet-integration/', desc: 'Unified MiPay wallet app and real-time e-wallet system integration.' },
         ],
       },
       {
@@ -180,8 +173,7 @@ export const growthIntegratedEngines = [
         name: 'Agensi Pekerjaan O2U Solutions',
         note: '(49%)',
         products: [
-          { name: 'Foreign Workforce Recruitment & FOWEX Services', href: '/recruitment-service/', desc: 'End-to-end recruitment, onboarding, and workforce exchange services.' },
-          { name: 'FWeX (Foreign Worker eXchange)', href: '/fwex/', desc: 'Digital exchange platform for workforce ecosystem transparency and support.' },
+          { name: 'FoWeX Networking', href: '/fwex/', desc: 'End-to-end recruitment, onboarding, and workforce exchange networking services.' },
         ],
       },
       {
@@ -202,7 +194,6 @@ export const growthIntegratedEngines = [
         products: [
           { name: 'SAP Business One (B1) & OneERP Implementation', href: '/sap-2/', desc: 'ERP licensing and implementation for SAP B1 and OneERP deployments.' },
           { name: 'e-Invoice', href: '/e-invoice/', desc: 'LHDN-compliant electronic invoicing solutions.' },
-          { name: 'Cyber Security', href: '/cyber-security/', desc: 'Managed cyber defense and enterprise security operations support.' },
         ],
       },
       {
@@ -303,6 +294,15 @@ export const featuredProductSpotlight = {
   tiktokEmbedUrl: 'https://www.tiktok.com/embed/v2/6718335390845095173',
 }
 
+export const productTikTokEmbeds = {
+  default: featuredProductSpotlight.tiktokEmbedUrl,
+  eWalletIntegration: 'https://www.tiktok.com/embed/v2/7547643469863374087', // S4S Sim & Wallet apps
+  smartHrPayroll: 'https://www.tiktok.com/embed/v2/7537995860496485640', // e-Wages digitalization for employers
+  eWages: 'https://www.tiktok.com/embed/v2/7553839902140452114', // e-Wages eWallet benefits for foreign workers
+  eInvoice: 'https://www.tiktok.com/embed/v2/7497187765746945287', // e-Invoice compliance awareness
+  fwex: 'https://www.tiktok.com/embed/v2/7522043144297352466', // Permit rejection and sector switch guidance
+}
+
 export const galleryItems = [
   {
     id: 'gallery-1',
@@ -338,10 +338,9 @@ export const galleryItems = [
 
 export const footerLinks = {
   Services: [
-    ['Mobile Fintech', '/mipay/'],
+    ['E-Wallet Integration (MiPay)', '/e-wallet-integration/'],
     ['SmartHR Payroll', '/smarthr-payroll/'],
     ['Payment Gateway', '/payment-gateway/'],
-    ['Cyber Security', '/cyber-security/'],
   ],
   Company: [
     ['About Us', '/about-us/'],
@@ -498,74 +497,75 @@ export const boardMembers = [
     name: 'Dato’ Hussian @ Rizal Bin A. Rahman, D.S.A.P',
     role: 'Managing Director',
     image: 'https://tfp.com.my/wp-content/uploads/2020/07/Dato’-Hussian.png',
-    bio: 'Appointed on 15 February 2013. He holds a Postgraduate Diploma in Business Management from The Oxford Association of Management. An entrepreneur with extensive experience in the ICT industry, he is also the Executive Director of MobilityOne Limited, listed on the London Stock Exchange.',
+    imagePosition: 'center 44%',
+    bio: `Dato’ Hussian was appointed to the Board of the Company on 15 February 2013. He obtained the Postgraduate Diploma in Business Management from The Oxford Association of Management, Oxford, England (“OXIM”) and was also admitted to the membership of Certified Master of Business Administration from the OXIM, a membership that recognises management competency and professional development.
+
+Dato’ Hussian has been an entrepreneur since in his mid-20s. He was involved in the businesses of trading and shipping and subsequently ventured into the Information and Communications Technology (“ICT”) industry. He has extensive experience in the ICT industry and currently is the Executive Director and major shareholder of MobilityOne Limited (“MobilityOne”), which is listed on AIM of the London Stock Exchange. MobilityOne is an e-commerce infrastructure payment solutions and platform provider that works closely with most of the telecommunication companies and financial institutions in Malaysia.`,
+  },
+  {
+    name: 'Dato Haris Ismail',
+    role: 'Director, A.I. & Analytics',
+    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=900',
+    imagePosition: 'center 36%',
+    bio: 'Profile details to be updated upon final confirmation. This entry is reserved for Director, A.I. & Analytics.',
   },
   {
     name: 'Datin Sr Eugena Braganza',
     role: 'Group Chief Executive Officer',
     image: 'https://tfp.com.my/wp-content/uploads/2024/05/datin-gena-3-01-1024x1024.jpg',
-    bio: 'A Chartered Quantity Surveyor with over 15 years of experience in project management and high-value developments. Known for leading multidisciplinary teams and driving sustainable growth. Recognized as Young Achiever of the Year at the RICS Southeast Asia Awards 2022.',
+    imagePosition: 'center 58%',
+    bio: `Datin Sr Eugena Braganza is a distinguished Chartered Quantity Surveyor with over 15 years of experience in quantity surveying and project management, covering both local and international markets. She has been instrumental in the successful delivery of high-value, large-scale, and complex developments, including major infrastructure and mega projects.
+
+Renowned for her ability to lead high-performing, multidisciplinary teams, Datin Sr Eugena brings a results-oriented mindset and a commitment to excellence that elevates every project she undertakes. Her leadership style is both dynamic and inclusive, enabling her to drive collaboration across stakeholders while ensuring efficiency, quality, and compliance at every stage of delivery.
+
+Her exceptional contributions to the built environment were formally recognised when she was highly commanded as Young Achiever of the Year at the Royal Institution of Chartered Surveyors (RICS) Southeast Asia Awards 2022, a prestigious accolade that reflects not only her professional excellence but also her influence as a next-generation leader in the industry toward sustainable growth and long-term success.`,
   },
   {
     name: 'YM Dato’ Indera Puteri Munawarah Syammiyah Binti Munir',
     role: 'Executive Director',
-    image: 'https://tfp.com.my/wp-content/uploads/2021/06/YM-Dato-Indera-Puteri-Munawarah-Syammiyah-Binti-Munir.jpg',
-    bio: 'Appointed on 19 January 2021. She has extensive experience in the banking industry, having held key positions at CIMB Islamic Bank Berhad, Kuwait Finance House (Malaysia) Berhad, and CIMB Investment Bank Berhad, specializing in Regional Debt Capital Markets.',
+    image: '/images/board/indera-puteri.png',
+    imagePosition: 'center 50%',
+    bio: 'YM Dato’ Indera Puteri Munawarah Syammiyah Binti Munir (“Puteri Munawarah”) was appointed to the Board of the Company on 19 January 2021 as Group Executive Director. She has worked in the banking industry for several years. She was the Executive Product Management at CIMB Islamic Bank Berhad from February 2010 to July 2013. From September 2013 to August 2015, she worked as the Senior Executive, Investment Banking at Kuwait Finance House (Malaysia) Berhad. In September 2016, she returned to CIMB as part of CIMB Investment Bank Berhad and was the Manager, Regional Debt Capital Markets up to December 2020.',
   },
   {
     name: 'Datuk Seri Syed Ali bin Abbas Alhabshee',
     role: 'Group Chairman, Non-Independent Non-Executive Director',
-    image: 'https://tfp.com.my/wp-content/uploads/2021/06/Datuk-Seri-Syed-Ali-Bin-Abbas-Alhabshee.png',
-    bio: 'Appointed to the Board on 9 June 2017. He holds a professional Diploma in Leadership and Management from the New Zealand Institute of Management (2003) and was awarded as Honorary Fellow from Liverpool John Moores University, UK (2016).',
+    image: '/images/board/syed-ali.png',
+    imagePosition: 'center 50%',
+    bio: 'Datuk Seri Syed Ali Bin Syed Abbas Al-Habshee was appointed to the Board of the Company on 9 June 2017 as a Non-Independent Non-Executive Director and Chairman. He obtained his professional Diploma in Leadership and Management by the New Zealand Institute of Management, New Zealand in 2003. On 16 July 2016, Datuk Seri Syed Ali was awarded as Honorary Fellow from Liverpool John Moores University, United Kingdom.',
   },
   {
     name: 'Noor Shahwan Bin Saffwan',
     role: 'Independent Non-Executive Director',
-    image: 'https://tfp.com.my/wp-content/uploads/2021/06/Noor-Shahwan-Bin-Saffwan.jpg',
-    bio: 'Appointed on 19 March 2015. He holds a Bachelor of Economics from University of Malaya (1974). His career began at the Ministry of Trade & Industry, followed by extensive service in various corporate and public sectors.',
+    image: '/images/board/noor-shahwan.png',
+    imagePosition: 'center 50%',
+    bio: 'Encik Noor Shahwan was appointed to the Board of the Company on 19 March 2015 as a Non-Independent Non-Executive Director. He was subsequently re-designated as Independent Non-Executive Director on 13 April 2015. He holds a Bachelor of Economics degree from University of Malaya in 1974. He started his career with the Ministry of Trade & Industry as International Trade Officer from 1975 to 1976.',
   },
   {
     name: 'Encik Abd Rahim Bin Adam',
     role: 'Independent Non-Executive Director',
-    image: 'https://tfp.com.my/wp-content/uploads/2024/09/Screenshot-2024-09-12-at-11.13.41-AM-e1726110907711.png',
-    bio: 'A Chartered Accountant with over 30 years of experience in accounting, audit, tax, and corporate advisory. Founder of Iltizam Consulting Sdn Bhd (1996). Member of MIA, MATA, MIM, and KL Malay Chamber of Commerce. MBA from RMIT University Australia (2002).',
+    image: '/images/board/abd-rahim-bin-adam.png',
+    imagePosition: 'center 50%',
+    bio: 'Encik Rahim, a Chartered Accountant by profession with more than 3 decades work experience in accounting, audit, tax and corporate advisory services. In 1989, he began his career as an auditor with Grant Thornton International. Subsequently in 1993 he embraced corporate experience at United Engineers (M) Berhad, responsible in investment and special projects. To seize the opportunity to unlock his full potential, he founded Iltizam Consulting Sdn Bhd in year 1996, specialising in corporate advisory services and continues to lead the firm to this day. He has been a distinguished member of various esteemed organizations, inter alia, Malaysian Institute of Accountants, Malaysian Association of Tax Accountants, Malaysian Institute of Management and Kuala Lumpur Malay Chamber of Commerce. He is also an Alumni of RMIT University Australia, by virtue of graduating with an MBA (International Management) in 2002, hence his networking is far beyond Malaysia and the ASEAN region.',
   },
   {
     name: 'Abdul Raof Bin Abdullah Shan',
     role: 'Independent Non-Executive Director',
-    image: 'https://tfp.com.my/wp-content/uploads/2024/12/Pic-Encik-Abdul-Raof-Bin-Abdullah-Shan-scaled.jpg',
-    bio: 'Over 20 years of experience in finance and banking, including risk management and fund management at Bank Bumiputra Malaysia Berhad. Has served as CFO for VtoV.com PLC in Los Angeles and held executive roles at KBN Holdings and Triprogram Xcess.',
+    image: '/images/board/abdul-raof-bin-abdullah-shan.png',
+    imagePosition: 'center 50%',
+    bio: `Encik Abdul Raof Abdullah Shan is a highly experienced finance and banking professional with over 20 years in the industry, including significant tenure at Bank Bumiputra Malaysia Berhad (BBMB, now CIMB Bank), where he specialised in risk management, fund management, and investment portfolios, with over a decade in international banking. Since 1994, he has been providing independent professional services in the areas of financial consulting, focusing on banking facilities negotiations and restructures.
+
+He also took other roles, such as Chief Financial Officer at VtoV.com PLC in Los Angeles (1999-2001), a company that was involved in IT and digital content, as well as executive roles at KBN Holdings and Triprogram Xcess (TPX) in Malaysia. He currently continues his consulting work independently, serving in both private and public sector advisory positions, establishing himself as a versatile and internationally experienced consultant.`,
   },
 ]
 
 export const managementTeam = [
-  {
-    name: 'Vincent Yong',
-    role: 'Deputy CEO',
-    image: 'https://tfp.com.my/wp-content/uploads/2023/10/Vincent-Yong.gif',
-    tags: ['Leadership', 'Strategy'],
-    unit: 'TFP Solutions Berhad',
-  },
   {
     name: 'Din Khalid',
     role: 'Group Chief Operating Officer (GCOO)',
     image: 'https://tfp.com.my/wp-content/uploads/2023/10/Din-Khalid-1.gif',
     tags: ['Operations', 'Delivery'],
     unit: 'TFP Group of Companies',
-  },
-  {
-    name: 'Chong Hon Bu',
-    role: 'Chief Operating Officer',
-    image: 'https://tfp.com.my/wp-content/uploads/2023/10/Chong-Hon-Bu-1.gif',
-    tags: ['Operations', 'Scale'],
-    unit: 'TFP Group of Companies',
-  },
-  {
-    name: 'Mazharul Haque',
-    role: 'Chief Technology Officer (CTO)',
-    image: 'https://tfp.com.my/wp-content/uploads/2023/10/Mazharul-Haque.gif',
-    tags: ['Technology', 'Security'],
-    unit: 'TFP Group of Companies / SoftFac Technology Sdn Bhd',
   },
   {
     name: 'Ahmad Shahrir Bin Mohd. Salleh',
@@ -575,17 +575,17 @@ export const managementTeam = [
     unit: 'OneCENT Sdn Bhd',
   },
   {
-    name: 'Sharin Bin Mohamed Sahari',
-    role: 'General Manager',
-    image: 'https://tfp.com.my/wp-content/uploads/2023/10/Sharin-Bin-Mohamed-Sahari-1.gif',
-    tags: ['Subsidiary', 'Execution'],
-    unit: 'MBP Solutions Sdn Bhd',
+    name: 'Daniel',
+    role: 'Management Team',
+    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=900',
+    tags: ['Leadership', 'Operations'],
+    unit: 'TFP Group of Companies',
   },
   {
-    name: 'Jaeson Hoo',
-    role: 'Accountant',
-    image: 'https://tfp.com.my/wp-content/uploads/2023/10/Jaeson-Hoo-1.gif',
-    tags: ['Finance', 'Reporting'],
+    name: 'Sazali',
+    role: 'Management Team',
+    image: 'https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&q=80&w=900',
+    tags: ['Operations'],
     unit: 'TFP Group of Companies',
   },
 ]

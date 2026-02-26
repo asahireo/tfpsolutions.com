@@ -68,16 +68,6 @@ export default function PaymentTerminal() {
                       />
                     </div>
                   </article>
-                  <article className="pg-hero-block pg-hero-block-mini pg-hero-media-card">
-                    <h4>Terminal Product Visual</h4>
-                    <img
-                      className="pg-hero-product-image"
-                      src="https://images.unsplash.com/photo-1518186285589-2f7649de83e0?auto=format&fit=crop&q=80&w=1200"
-                      alt="Point-of-sale terminal used at checkout"
-                      loading="lazy"
-                    />
-                    <p>Physical terminal experience for retail and service businesses.</p>
-                  </article>
                 </div>
               </div>
             </div>

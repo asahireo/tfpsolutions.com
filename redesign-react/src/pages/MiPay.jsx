@@ -68,16 +68,6 @@ export default function MiPay() {
                       />
                     </div>
                   </article>
-                  <article className="pg-hero-block pg-hero-block-mini pg-hero-media-card">
-                    <h4>MiPay Product Visual</h4>
-                    <img
-                      className="pg-hero-product-image"
-                      src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&q=80&w=1200"
-                      alt="Person paying with mobile wallet and prepaid card"
-                      loading="lazy"
-                    />
-                    <p>Clear visual of wallet and prepaid card usage in real scenarios.</p>
-                  </article>
                 </div>
               </div>
             </div>

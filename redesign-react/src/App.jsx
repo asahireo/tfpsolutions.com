@@ -12,7 +12,6 @@ import Gallery from './pages/Gallery'
 import ContactUs from './pages/ContactUs'
 import PaymentGateway from './pages/PaymentGateway'
 import PaymentTerminal from './pages/PaymentTerminal'
-import MiPay from './pages/MiPay'
 import EWalletIntegration from './pages/EWalletIntegration'
 import MicroLending from './pages/MicroLending'
 import SmartHrPayroll from './pages/SmartHrPayroll'
@@ -20,10 +19,7 @@ import EWages from './pages/EWages'
 import CyberSecurity from './pages/CyberSecurity'
 import EInvoice from './pages/EInvoice'
 import Fwex from './pages/Fwex'
-import OneSchool from './pages/OneSchool'
-import RecruitmentService from './pages/RecruitmentService'
 import SapBusinessOne from './pages/SapBusinessOne'
-import UsahawanDigital from './pages/UsahawanDigital'
 import NotFound from './pages/NotFound'
 
 import './styles.css'
@@ -104,10 +100,10 @@ export default function App() {
           <Route path="/pos-system" element={<Navigate to="/payment-terminal/" replace />} />
           <Route path="/pos-system/" element={<Navigate to="/payment-terminal/" replace />} />
 
-          <Route path="/mipay" element={<Navigate to="/mipay/" replace />} />
-          <Route path="/mipay/" element={<MiPay />} />
-          <Route path="/mobile-fintech" element={<Navigate to="/mipay/" replace />} />
-          <Route path="/mobile-fintech/" element={<Navigate to="/mipay/" replace />} />
+          <Route path="/mipay" element={<Navigate to="/e-wallet-integration/" replace />} />
+          <Route path="/mipay/" element={<Navigate to="/e-wallet-integration/" replace />} />
+          <Route path="/mobile-fintech" element={<Navigate to="/e-wallet-integration/" replace />} />
+          <Route path="/mobile-fintech/" element={<Navigate to="/e-wallet-integration/" replace />} />
 
           <Route path="/e-wallet-integration" element={<Navigate to="/e-wallet-integration/" replace />} />
           <Route path="/e-wallet-integration/" element={<EWalletIntegration />} />
@@ -134,17 +130,17 @@ export default function App() {
           <Route path="/fwex" element={<Navigate to="/fwex/" replace />} />
           <Route path="/fwex/" element={<Fwex />} />
 
-          <Route path="/oneschool" element={<Navigate to="/oneschool/" replace />} />
-          <Route path="/oneschool/" element={<OneSchool />} />
+          <Route path="/oneschool" element={<Navigate to="/corporate-overview/#structure" replace />} />
+          <Route path="/oneschool/" element={<Navigate to="/corporate-overview/#structure" replace />} />
 
-          <Route path="/recruitment-service" element={<Navigate to="/recruitment-service/" replace />} />
-          <Route path="/recruitment-service/" element={<RecruitmentService />} />
+          <Route path="/recruitment-service" element={<Navigate to="/fwex/" replace />} />
+          <Route path="/recruitment-service/" element={<Navigate to="/fwex/" replace />} />
 
           <Route path="/sap-2" element={<Navigate to="/sap-2/" replace />} />
           <Route path="/sap-2/" element={<SapBusinessOne />} />
 
-          <Route path="/usahawan-digital" element={<Navigate to="/usahawan-digital/" replace />} />
-          <Route path="/usahawan-digital/" element={<UsahawanDigital />} />
+          <Route path="/usahawan-digital" element={<Navigate to="/corporate-overview/#structure" replace />} />
+          <Route path="/usahawan-digital/" element={<Navigate to="/corporate-overview/#structure" replace />} />
 
           <Route path="/group-structure" element={<Navigate to="/corporate-overview/#structure" replace />} />
           <Route path="/group-structure/" element={<Navigate to="/corporate-overview/#structure" replace />} />

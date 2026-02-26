@@ -68,16 +68,6 @@ export default function MicroLending() {
                       />
                     </div>
                   </article>
-                  <article className="pg-hero-block pg-hero-block-mini pg-hero-media-card">
-                    <h4>Micro Lending Product Visual</h4>
-                    <img
-                      className="pg-hero-product-image"
-                      src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&q=80&w=1200"
-                      alt="Micro lending analytics and repayment overview"
-                      loading="lazy"
-                    />
-                    <p>Operational view of lending status, approvals, and repayment performance.</p>
-                  </article>
                 </div>
               </div>
             </div>

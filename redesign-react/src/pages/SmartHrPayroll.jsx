@@ -1,6 +1,6 @@
 import { AnimatedSection } from '../components/AnimatedSection'
 import { Users, Calculator, ShieldCheck, BarChart3 } from 'lucide-react'
-import { featuredProductSpotlight } from '../siteData'
+import { productTikTokEmbeds } from '../siteData'
 import { WhyChooseSmartHrPayroll } from '../components/WhyChooseSmartHrPayroll'
 
 const channels = [
@@ -61,22 +61,12 @@ export default function SmartHrPayroll() {
                     <h4>Product Walkthrough</h4>
                     <div className="pg-hero-tiktok-frame">
                       <iframe
-                        src={featuredProductSpotlight.tiktokEmbedUrl}
+                        src={productTikTokEmbeds.smartHrPayroll}
                         title="SmartHR Payroll TikTok"
                         allow="encrypted-media; picture-in-picture"
                         loading="lazy"
                       />
                     </div>
-                  </article>
-                  <article className="pg-hero-block pg-hero-block-mini pg-hero-media-card">
-                    <h4>SmartHR Payroll Visual</h4>
-                    <img
-                      className="pg-hero-product-image"
-                      src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=1200"
-                      alt="HR and payroll dashboard with workforce analytics"
-                      loading="lazy"
-                    />
-                    <p>Clear dashboard-style view of employee and payroll operations.</p>
                   </article>
                 </div>
               </div>

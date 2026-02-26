@@ -4,7 +4,7 @@ import { AnimatedTooltip } from '../components/AnimatedTooltip'
 import { FeatureIcon } from '../components/FeatureIcon'
 import { managementTeam } from '../siteData'
 
-const filters = ['All', 'Leadership', 'Strategy', 'Operations', 'Technology', 'Finance', 'Subsidiary']
+const filters = ['All', ...Array.from(new Set(managementTeam.flatMap((person) => person.tags || [])))]
 
 function hasTag(person, tag) {
   return Array.isArray(person.tags) && person.tags.includes(tag)

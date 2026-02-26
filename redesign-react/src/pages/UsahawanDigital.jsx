@@ -116,16 +116,6 @@ export default function UsahawanDigital() {
                       />
                     </div>
                   </article>
-                  <article className="pg-hero-block pg-hero-block-mini pg-hero-media-card">
-                    <h4>Merchant Enablement Visual</h4>
-                    <img
-                      className="pg-hero-product-image"
-                      src="https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&q=80&w=1200"
-                      alt="Micro entrepreneur using digital payment tools"
-                      loading="lazy"
-                    />
-                    <p>Practical tools to help merchants accept and manage digital payments.</p>
-                  </article>
                 </div>
               </div>
             </div>

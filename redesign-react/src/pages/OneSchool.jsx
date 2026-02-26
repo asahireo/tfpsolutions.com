@@ -116,16 +116,6 @@ export default function OneSchool() {
                       />
                     </div>
                   </article>
-                  <article className="pg-hero-block pg-hero-block-mini pg-hero-media-card">
-                    <h4>School Operations Visual</h4>
-                    <img
-                      className="pg-hero-product-image"
-                      src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&q=80&w=1200"
-                      alt="Digital learning and school management tools"
-                      loading="lazy"
-                    />
-                    <p>Unify learning operations, student identity, and cashless campus services.</p>
-                  </article>
                 </div>
               </div>
             </div>

@@ -1,9 +1,9 @@
 import { AnimatedSection } from '../components/AnimatedSection'
 import { UserRoundCheck, Globe, BarChart3, BanknoteArrowUp, Building2, ShieldCheck } from 'lucide-react'
-import { featuredProductSpotlight } from '../siteData'
+import { productTikTokEmbeds } from '../siteData'
 
 const pillars = [
-  { title: 'Worker-Centric', desc: 'Digital services to support foreign worker welfare and transparency.' },
+  { title: 'Recruitment + Exchange', desc: 'Recruitment and workforce exchange services delivered in one networking flow.' },
   { title: 'Cross-Stakeholder Data', desc: 'Operational views for employers, regulators, and ecosystem partners.' },
   { title: 'Fintech Enabled', desc: 'Connected to payment and remittance workflows for practical outcomes.' },
 ]
@@ -72,15 +72,15 @@ export default function Fwex() {
           <AnimatedSection>
             <div className="pg-hero-layout">
               <div className="pg-hero-content">
-                <span className="eyebrow">✦ FWeX</span>
-                <h1>Foreign Worker eXchange Platform</h1>
+                <span className="eyebrow">✦ FoWeX Networking</span>
+                <h1>FoWeX Networking Platform</h1>
                 <p>
-                  FWeX connects workforce stakeholders through a fintech-enabled platform that
-                  improves visibility, welfare tracking, and decision support for foreign worker ecosystems.
+                  FoWeX Networking combines foreign workforce recruitment, onboarding,
+                  and exchange workflows in one connected platform for employers and ecosystem partners.
                 </p>
                 <div className="page-hero-actions">
                   <a className="btn btn-primary" href="/contact-us/">
-                    Explore FWeX
+                    Explore FoWeX Networking
                   </a>
                   <a className="btn btn-ghost" href="/fwex/">
                     Product Site
@@ -100,31 +100,21 @@ export default function Fwex() {
               <div className="pg-hero-visual">
                 <div className="pg-hero-halo" />
                 <article className="pg-hero-block pg-hero-block-main">
-                  <span>FWeX Platform</span>
+                  <span>FoWeX Networking</span>
                   <h3>Data-Driven Workforce Ecosystem</h3>
                   <p>Support welfare and governance outcomes with practical digital infrastructure.</p>
                 </article>
                 <div className="pg-hero-media-grid">
                   <article className="pg-hero-block pg-hero-block-mini pg-hero-media-card">
-                    <h4>FWeX Walkthrough</h4>
+                    <h4>FoWeX Networking Walkthrough</h4>
                     <div className="pg-hero-tiktok-frame">
                       <iframe
-                        src={featuredProductSpotlight.tiktokEmbedUrl}
-                        title="FWeX Overview"
+                        src={productTikTokEmbeds.fwex}
+                        title="FoWeX Networking Overview"
                         allow="encrypted-media; picture-in-picture"
                         loading="lazy"
                       />
                     </div>
-                  </article>
-                  <article className="pg-hero-block pg-hero-block-mini pg-hero-media-card">
-                    <h4>Workforce Operations Visual</h4>
-                    <img
-                      className="pg-hero-product-image"
-                      src="https://images.unsplash.com/photo-1573164574230-db1d5e960238?auto=format&fit=crop&q=80&w=1200"
-                      alt="Workforce analytics and coordination"
-                      loading="lazy"
-                    />
-                    <p>Consolidated insights across attendance, movement, and financial behavior.</p>
                   </article>
                 </div>
               </div>
@@ -136,7 +126,7 @@ export default function Fwex() {
       <section className="section pg-section">
         <div className="container">
           <AnimatedSection className="pg-section-head">
-            <h2 className="section-title">How FWeX Supports Stakeholders</h2>
+            <h2 className="section-title">How FoWeX Networking Supports Stakeholders</h2>
             <p className="section-subtitle">
               Purpose-built modules for regulators, employers, embassies, and workforce partners.
             </p>

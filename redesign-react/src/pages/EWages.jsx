@@ -1,6 +1,6 @@
 import { AnimatedSection } from '../components/AnimatedSection'
 import { HandCoins, ShieldCheck, Users, BarChart3 } from 'lucide-react'
-import { featuredProductSpotlight } from '../siteData'
+import { productTikTokEmbeds } from '../siteData'
 import { WhyChooseEWages } from '../components/WhyChooseEWages'
 
 const channels = [
@@ -61,22 +61,12 @@ export default function EWages() {
                     <h4>Product Walkthrough</h4>
                     <div className="pg-hero-tiktok-frame">
                       <iframe
-                        src={featuredProductSpotlight.tiktokEmbedUrl}
+                        src={productTikTokEmbeds.eWages}
                         title="E-Wages TikTok"
                         allow="encrypted-media; picture-in-picture"
                         loading="lazy"
                       />
                     </div>
-                  </article>
-                  <article className="pg-hero-block pg-hero-block-mini pg-hero-media-card">
-                    <h4>E-Wages Product Visual</h4>
-                    <img
-                      className="pg-hero-product-image"
-                      src="https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&q=80&w=1200"
-                      alt="Digital wage and payroll payout dashboard"
-                      loading="lazy"
-                    />
-                    <p>Clear view of wage disbursement status and payout tracking metrics.</p>
                   </article>
                 </div>
               </div>

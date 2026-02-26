@@ -68,16 +68,6 @@ export default function PaymentGateway() {
                       />
                     </div>
                   </article>
-                  <article className="pg-hero-block pg-hero-block-mini pg-hero-media-card">
-                    <h4>Payment Product Visual</h4>
-                    <img
-                      className="pg-hero-product-image"
-                      src="https://images.unsplash.com/photo-1556740758-90de374c12ad?auto=format&fit=crop&q=80&w=1200"
-                      alt="Payment product on mobile checkout"
-                      loading="lazy"
-                    />
-                    <p>Clear product snapshot for buyers and decision makers.</p>
-                  </article>
                 </div>
               </div>
             </div>
