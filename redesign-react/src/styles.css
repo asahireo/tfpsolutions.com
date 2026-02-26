@@ -3531,13 +3531,14 @@ h1 {
 
 .pg-hero-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  gap: 1.2rem;
+  grid-template-columns: minmax(0, 1.08fr) minmax(360px, 0.92fr);
+  gap: clamp(1rem, 2vw, 2rem);
   align-items: start;
 }
 
 .pg-hero-content {
   padding: clamp(0.25rem, 1vw, 0.65rem) 0;
+  min-width: 0;
 }
 
 .pg-hero-content h1 {
@@ -3583,12 +3584,39 @@ h1 {
   line-height: 1.45;
 }
 
+.pg-context-card {
+  margin-top: 0.9rem;
+  border: 1px solid rgba(142, 198, 63, 0.24);
+  border-radius: 14px;
+  background: rgba(7, 18, 9, 0.68);
+  padding: 0.8rem 0.9rem;
+}
+
+.pg-context-card h4 {
+  margin: 0;
+  color: var(--ink-100);
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+}
+
+.pg-context-list {
+  margin: 0.56rem 0 0;
+  padding-left: 1rem;
+  color: var(--ink-250);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.pg-context-list li+li {
+  margin-top: 0.28rem;
+}
+
 .pg-hero-visual {
   position: relative;
   width: 100%;
-  max-width: 560px;
+  max-width: none;
   min-height: 0;
-  margin-inline: auto;
+  margin-inline: 0;
   border-radius: 30px;
   padding: 1rem;
   border: 1px solid rgba(142, 198, 63, 0.22);
@@ -3691,6 +3719,38 @@ h1 {
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+.pg-hero-video-placeholder {
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(circle at 20% 12%, rgba(142, 198, 63, 0.2), transparent 42%),
+    linear-gradient(165deg, rgba(10, 24, 13, 0.9), rgba(6, 16, 9, 0.98));
+}
+
+.pg-hero-video-placeholder-inner {
+  width: min(86%, 300px);
+  border: 1px solid rgba(142, 198, 63, 0.35);
+  border-radius: 14px;
+  background: rgba(7, 18, 9, 0.74);
+  padding: 1rem 1.05rem;
+  text-align: center;
+}
+
+.pg-hero-video-placeholder-inner strong {
+  display: block;
+  color: var(--ink-100);
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+}
+
+.pg-hero-video-placeholder-inner p {
+  margin: 0.46rem 0 0;
+  color: var(--ink-300);
+  font-size: 0.9rem;
+  line-height: 1.45;
 }
 
 .pg-media-rail {
@@ -4020,18 +4080,6 @@ h1 {
     grid-template-columns: 1fr;
   }
 
-  .pg-hero-layout {
-    grid-template-columns: 1fr;
-  }
-
-  .pg-hero-content h1 {
-    max-width: 18ch;
-  }
-
-  .pg-hero-visual {
-    min-height: 0;
-  }
-
   .pg-pill-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -4059,6 +4107,25 @@ h1 {
 
   .pg-channel-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .pg-hero-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .pg-hero-content h1 {
+    max-width: 18ch;
+  }
+
+  .pg-hero-visual {
+    min-height: 0;
+  }
+
+  .pg-hero-tiktok-frame {
+    aspect-ratio: 9 / 16;
+    height: auto;
   }
 }
 

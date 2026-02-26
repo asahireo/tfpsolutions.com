@@ -1,0 +1,255 @@
+# EN. DIN - MobilityOne Payment Gateway Product Overview.pptx
+
+## Extracted slide/page text
+--- Slide 1 ---
+Payment Gateway
+Product Overview (incl. FPX)
+FPX by PayNet
+[Notes] [Sources]
+- MobilityOne logo photo: https://resources.wobbjobs.com/resized/uploads/jobs-malaysia/company_images/8611/jobs-malaysia-mobilityone-sdn-bhd-1530166882_show.jpeg
+- PayNet logo: https://seeklogo.com/vector-logo/391472/paynet
+[/Sources]
+
+--- Slide 2 ---
+Agenda
+What we will cover
+MobilityOne Payment Gateway
+Product overview & value proposition
+Integration options (web, links, invoicing, mobile)
+Payment methods (incl. FPX) & user journey
+Commercials: fees, timeline, MDR
+Merchant onboarding & required documents
+Implementation plan & next steps
+
+--- Slide 3 ---
+MobilityOne Payment Gateway
+A single platform to accept and manage payments across channels
+MobilityOne Payment Gateway
+Hosted Payment Page
+Fastest go-live path. A responsive payment page that adapts to customer device and location to help increase conversion. Supports coupons, tax rates, and more.
+Fully Customizable Flows
+Build your own payment form on your site using MobilityOne prebuilt UI components. You can progressively support more payment methods, or opt for a fully API-based integration with your own UI.
+Designed for scale
+FPX (B2C/B2B)
+Cards (Local/Foreign)
+eWallets
+QR
+Shareable Links
+Invoicing (recurring/one-off)
+Mobile SDKs (iOS/Android)
+Plugins & Integrations
+One integration can power multiple checkout experiences while maintaining consistent settlement, reporting, and reconciliation.
+
+--- Slide 4 ---
+More ways to integrate
+Choose the UX that fits your business and customer journey
+MobilityOne Payment Gateway
+Shareable Links
+Create a full payment page in a few clicks and share the link with customers.
+Flexible Invoicing
+Customizable invoices to accept recurring or one‑off payments.
+Mobile Apps
+Accept payments inside iOS or Android apps using mobile SDKs.
+Third‑party Integrations
+Prebuilt integrations to popular platforms and plugins.
+Tip: Start with Hosted Payment Page or Links for fastest launch; migrate to Custom Flows / SDKs when you need tighter UX control.
+
+--- Slide 5 ---
+Supported payment methods
+Online payment gateway & multi-channel acceptance
+MobilityOne Payment Gateway
+Online (Payment Gateway)
+FPX — B2C & B2B
+Cards — Local debit/credit & foreign cards
+eWallets — Boost, Touch ’n Go, GrabPay, WeChat Pay, Alipay, ShopeePay, Setel, etc.
+QR — MaybankQR and supported QR schemes
+In‑person / Omni-channel (optional)
+MyDebit, local/foreign cards
+eWallets (Boost, TNG, GrabPay, etc.)
+Cash out (where applicable)
+Spotlight: FPX
+Real‑time online bank transfers for Malaysia. Customers select their bank, authenticate, and complete payment without sharing card details.
+Typical FPX flow
+1) Choose FPX
+
+2) Pick bank
+
+3) Authenticate
+
+4) Return success
+[Notes] [Sources]
+- PayNet logo: https://seeklogo.com/vector-logo/391472/paynet
+[/Sources]
+
+--- Slide 6 ---
+FPX checkout journey
+A familiar experience for Malaysian customers
+MobilityOne Payment Gateway
+Customer steps
+1
+Select FPX at checkout
+2
+Choose bank from list
+3
+Login & authorize in online banking
+4
+Return to merchant with success confirmation
+Why it works
+FPX leverages customers’ trusted internet banking login, reducing friction and improving payment confidence.
+[Notes] [Sources]
+- FPX flow screenshot (logo & UI): https://docs.paymentwall.com/payment-method/fpxmalay (image: FPX Payment Flow 1)
+[/Sources]
+
+--- Slide 7 ---
+Commercials & timeline
+Key fees and operational terms from the SOP
+MobilityOne Payment Gateway
+Fees (one-time / recurring)
+Setup fee: RM599
+MID fee: RM200
+Annual fee: RM500
+Installation timeline
+Target turnaround: 7 working days (after complete documentation and setup readiness).
+Payment terms (fees & payouts)
+Term
+Value
+Currency
+MYR
+Fee frequency
+Monthly basis
+Minimum payout
+RM100.00 (payout only if settlement due exceeds this amount)
+Note: MDR varies by payment method (next slide).
+
+--- Slide 8 ---
+MDR — Online payment gateway
+Indicative merchant MDR and Reseller sharing (per SOP)
+MobilityOne Payment Gateway
+Online Payment Gateway
+Payment Method
+Merchant MDR
+Reseller Sharing
+FPX (B2C)
+RM1.00
+RM0.10
+FPX (B2B)
+RM1.50
+RM0.10
+Local Debit Card
+1.80%
+0.10%
+Local Credit Card
+1.80%
+0.10%
+Foreign Card
+2.80%
+0.15%
+Boost
+1.20%
+0.05%
+Touch ’n Go
+1.20%
+0.05%
+GrabPay
+1.20%
+0.05%
+MaybankQR
+1.00%
+0.05%
+ShopeePay
+1.20%
+0.05%
+Setel
+2.00%
+0.10%
+FPX is charged as a fixed fee per transaction (B2C vs. B2B), while cards/eWallets are percentage-based MDR.
+
+--- Slide 9 ---
+MDR — Terminal & eWallet (optional)
+Indicative merchant MDR and Reseller sharing (per SOP)
+MobilityOne Payment Gateway
+Debit/Credit Payment Terminal & eWallet (selected)
+Payment Method
+Merchant MDR
+Reseller Sharing
+MyDebit
+0.80%
+0.10%
+Local Credit Card
+1.70%
+0.25%
+Foreign Card
+2.80%
+0.25%
+Cash Out
+RM0.50
+RM0.10
+Boost
+1.00%
+0.15%
+Touch ’n Go
+1.00%
+0.15%
+GrabPay
+1.00%
+0.05%
+MaybankQR
+1.00%
+0.15%
+ShopeePay
+1.20%
+0.10%
+Setel
+2.00%
+0.10%
+Note: This table covers in-person acceptance (terminal/QR/eWallet) where applicable.
+
+--- Slide 10 ---
+Merchant onboarding (SOP)
+Documents required for mobile app & payment gateway application
+MobilityOne Payment Gateway
+Core documents
+Unified ONEPAY / M1Pay application form
+SSM / business license / certificate
+Director/owner NRIC (front & back) or passport
+Latest bank statement (first page)
+Website URL (if applicable)
+Website & compliance
+Contact details (company name, address, CS hours, phone, email)
+Refund / cancellation policy
+Shipping / fulfilment policy
+Privacy policy & Terms & Conditions
+Clear product/service display with pricing
+Business premise photos (exterior signboard + interior)
+If SSM doesn’t show business address: provide brochure, tenancy agreement, utility bill, or social media post showing address.
+
+--- Slide 11 ---
+Implementation plan
+A practical path to launch in ~7 working days
+MobilityOne Payment Gateway
+1. Discovery & scope
+Confirm channels (HPP, custom UI, links, invoicing, SDK) and required payment methods.
+2. Document submission
+Provide application form + KYC/business documents + required policies and URLs.
+3. Merchant/MID setup
+MobilityOne provisions merchant profile, settlement settings, and methods enabled.
+4. Integration & branding
+Implement checkout (HPP/custom/SDK). Configure coupons/taxes where applicable.
+5. UAT & go‑live
+End‑to‑end payment tests, refund flow validation, then production activation.
+Success factors: complete documentation, clear refund policy, and early UAT alignment with your app/website release timeline.
+
+--- Slide 12 ---
+Next steps
+Confirm integration route (HPP / custom UI / links / invoicing / mobile SDK)
+Prepare onboarding documents & website policies (per SOP)
+Align UAT plan and go-live date
+Activate payment methods (incl. FPX) and start accepting payments
+Q&A
+[Notes] [Sources]
+- MobilityOne logo photo: https://resources.wobbjobs.com/resized/uploads/jobs-malaysia/company_images/8611/jobs-malaysia-mobilityone-sdn-bhd-1530166882_show.jpeg
+[/Sources]
+
+## OCR from embedded images / rendered pages
+--- Image 3: ppt/media/image3.png ---
+FPX My Account Help <> FPX @ Test Product for for 3.00 MYR APPLY BUY

@@ -3,9 +3,9 @@ import { UserRoundCheck, Globe, BarChart3, BanknoteArrowUp, Building2, ShieldChe
 import { productTikTokEmbeds } from '../siteData'
 
 const pillars = [
-  { title: 'Recruitment + Exchange', desc: 'Recruitment and workforce exchange services delivered in one networking flow.' },
-  { title: 'Cross-Stakeholder Data', desc: 'Operational views for employers, regulators, and ecosystem partners.' },
-  { title: 'Fintech Enabled', desc: 'Connected to payment and remittance workflows for practical outcomes.' },
+  { title: 'Permit Renewal By Installment', desc: 'Reduce upfront burden through structured renewal payment plans.' },
+  { title: 'Cross-Stakeholder Data', desc: 'Operational views for employers, agencies, and ecosystem partners.' },
+  { title: 'Fintech Enabled', desc: 'Linked to MiPay wallet, card, and micro-credit services for workers.' },
 ]
 
 const capabilities = [
@@ -75,8 +75,8 @@ export default function Fwex() {
                 <span className="eyebrow">✦ FoWeX Networking</span>
                 <h1>FoWeX Networking Platform</h1>
                 <p>
-                  FoWeX Networking combines foreign workforce recruitment, onboarding,
-                  and exchange workflows in one connected platform for employers and ecosystem partners.
+                  FoWeX supports foreign worker permit renewal, onboarding, and workforce exchange
+                  workflows with installment models and integrated digital financial services.
                 </p>
                 <div className="page-hero-actions">
                   <a className="btn btn-primary" href="/contact-us/">
@@ -95,6 +95,15 @@ export default function Fwex() {
                     </article>
                   ))}
                 </div>
+
+                <article className="pg-context-card">
+                  <h4>What FoWeX Solves</h4>
+                  <ul className="pg-context-list">
+                    <li>High upfront permit renewal burden for employers and workers.</li>
+                    <li>Fragmented data between agencies, employers, and ecosystem partners.</li>
+                    <li>Disconnected worker financial services across wages, wallet, and remittance.</li>
+                  </ul>
+                </article>
               </div>
 
               <div className="pg-hero-visual">
@@ -102,7 +111,7 @@ export default function Fwex() {
                 <article className="pg-hero-block pg-hero-block-main">
                   <span>FoWeX Networking</span>
                   <h3>Data-Driven Workforce Ecosystem</h3>
-                  <p>Support welfare and governance outcomes with practical digital infrastructure.</p>
+                  <p>Support welfare and governance with practical digital infrastructure.</p>
                 </article>
                 <div className="pg-hero-media-grid">
                   <article className="pg-hero-block pg-hero-block-mini pg-hero-media-card">

@@ -3,19 +3,19 @@ import { motion, AnimatePresence, useMotionValue, useSpring, useTransform } from
 
 const reasons = [
   {
-    quote: 'Launch borrower onboarding with structured eligibility and faster approval workflows.',
-    author: 'Faster Disbursement',
-    role: 'Move from application to funding with less friction.',
+    quote: 'Launch borrower onboarding with structured eligibility and policy-driven approvals.',
+    author: 'Disciplined Onboarding',
+    role: 'Move from application to funding with reduced processing friction.',
     company: 'Onboarding',
   },
   {
-    quote: 'Use data-led checks to manage risk while keeping access open for underserved users.',
+    quote: 'Use risk scoring and threshold controls while preserving access for underserved users.',
     author: 'Balanced Risk',
     role: 'Improve portfolio quality without blocking good applicants.',
     company: 'Risk Scoring',
   },
   {
-    quote: 'Track repayment, reminders, and status from one operational lending workflow.',
+    quote: 'Track repayment, reminders, and collection outcomes from one lending workflow.',
     author: 'Lifecycle Visibility',
     role: 'Keep lending teams aligned across collection cycles.',
     company: 'Repayment',

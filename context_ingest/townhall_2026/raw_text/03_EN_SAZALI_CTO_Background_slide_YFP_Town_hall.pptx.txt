@@ -1,0 +1,45 @@
+--- Slide 1 ---
+TFP Group Transformation Journey
+TFP Group has undergone a significant transformation — evolving from a hardware and software services provider into a Mobile FinTech enabler and now moving forward as an AI Technology & Solutions provider that strengthens and supports business needs.
+Hardware & Software Services
+Mobile FinTech Enabler
+AI Technology & Solutions Provider
+
+--- Slide 2 ---
+Technology & AI Direction
+Reliable • Secure • Ready for Growth
+FOUNDATION
+System Stability
+Data Protection
+Operational Resilience
+AI DIRECTION
+Predictive Intelligence
+Decision Support
+Process Automation
+GOVERNANCE
+Human Oversight
+Privacy & Security
+Ethics & Compliance
+Technology Becomes a Strength, Not a Concern
+Built to Decide, Engineered to Deliver
+Sazali Shahid
+
+--- Slide 3 ---
+S4S Mobile FinTech
+Enhance user registration and connectivity to self-care services
+Enhance  Smart Partner (4-Level) registration  and commission information  Management
+Enable scalable dealership business model
+Cloud Partner Program
+Participate in CSP partner programs
+(e,g AWS, etc)
+Adopt cloud-native architecture
+Improve scalability, security & resilience
+Cooperative Systems
+Complete all required system modules
+Fulfil regulatory & data back-up operational systems
+Stabilise  Cloud-base Cooperative Management Information System
+AI Solutions for SMEs
+Empower SMEs through Data-Driven intelligence
+Develop modular AI solutions
+Enable automation & decision support
+CTO STRATEGIC EXECUTION ROADMAP

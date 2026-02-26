@@ -1,11 +1,10 @@
 import { AnimatedSection } from '../components/AnimatedSection'
 import { Boxes, Warehouse, ShoppingCart, BarChart3, Workflow, Building2 } from 'lucide-react'
-import { featuredProductSpotlight } from '../siteData'
 
 const pillars = [
-  { title: 'SME Digital Core', desc: 'Integrated ERP capability tailored for growing businesses.' },
-  { title: 'Operational Control', desc: 'Connect procurement, inventory, and finance operations in one system.' },
-  { title: 'Scalable Foundation', desc: 'Build standardized processes that scale as operations expand.' },
+  { title: 'SME Digital Core', desc: 'Integrated SAP Business One and OneERP foundations for growing businesses.' },
+  { title: 'Operational Control', desc: 'Connect accounting, sales, purchasing, inventory, and projects in one system.' },
+  { title: 'Scalable Foundation', desc: 'Extend into HR, payroll, assets, CRM, and manufacturing as operations scale.' },
 ]
 
 const capabilities = [
@@ -37,7 +36,7 @@ const capabilities = [
   {
     icon: Building2,
     title: 'Industry Readiness',
-    desc: 'Adapt ERP modules to sector-specific workflows and growth priorities.',
+    desc: 'Configure module combinations based on sector workflows and maturity level.',
   },
 ]
 
@@ -75,8 +74,8 @@ export default function SapBusinessOne() {
                 <span className="eyebrow">✦ SAP Business One & OneERP</span>
                 <h1>Digital Core For SME Operations</h1>
                 <p>
-                  Implement enterprise-grade ERP capabilities to unify inventory,
-                  procurement, finance, and production management in one integrated system.
+                  Deploy SAP Business One and OneERP to unify finance, purchasing, inventory,
+                  sales, and operational reporting in one integrated enterprise backbone.
                 </p>
                 <div className="page-hero-actions">
                   <a className="btn btn-primary" href="/contact-us/">
@@ -107,13 +106,11 @@ export default function SapBusinessOne() {
                 <div className="pg-hero-media-grid">
                   <article className="pg-hero-block pg-hero-block-mini pg-hero-media-card">
                     <h4>Implementation Walkthrough</h4>
-                    <div className="pg-hero-tiktok-frame">
-                      <iframe
-                        src={featuredProductSpotlight.tiktokEmbedUrl}
-                        title="SAP Business One Overview"
-                        allow="encrypted-media; picture-in-picture"
-                        loading="lazy"
-                      />
+                    <div className="pg-hero-tiktok-frame pg-hero-video-placeholder">
+                      <div className="pg-hero-video-placeholder-inner">
+                        <strong>Video Coming Soon</strong>
+                        <p>Official SAP Business One walkthrough will be published here.</p>
+                      </div>
                     </div>
                   </article>
                 </div>

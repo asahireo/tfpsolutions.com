@@ -4,10 +4,10 @@ import { productTikTokEmbeds } from '../siteData'
 import { WhyChooseEWages } from '../components/WhyChooseEWages'
 
 const channels = [
-  { icon: Users, title: 'Employer Onboarding', desc: 'Set up employer payroll structures and worker payout rules efficiently.' },
-  { icon: HandCoins, title: 'Digital Wage Disbursement', desc: 'Disburse wages through controlled digital channels with clear status updates.' },
-  { icon: ShieldCheck, title: 'Compliance Tracking', desc: 'Apply compliance checks and payout controls for regulated wage operations.' },
-  { icon: BarChart3, title: 'Payout Reporting', desc: 'Monitor wage transfer performance, confirmations, and exception handling.' },
+  { icon: Users, title: 'Employer & Worker Enrollment', desc: 'Set up employer entities and worker payout profiles with role-based access.' },
+  { icon: HandCoins, title: 'e-Disbursement', desc: 'Push wages digitally to approved channels with payment confirmations and retries.' },
+  { icon: ShieldCheck, title: 'Regulatory Support', desc: 'Support controlled wage programs and auditable payroll transfer records.' },
+  { icon: BarChart3, title: 'Ops Dashboard', desc: 'Track transfer success rates, pending cases, and resolution turnaround time.' },
 ]
 
 export default function EWages() {
@@ -21,8 +21,8 @@ export default function EWages() {
                 <span className="eyebrow">✦ E-Wages Solution</span>
                 <h1>Digital Wage Distribution Ecosystem</h1>
                 <p>
-                  Modernize wage disbursement with transparent digital workflows, stronger compliance
-                  controls, and operational visibility across payroll payout cycles.
+                  The M1 e-Wages model digitizes wage transfer workflows with stronger transparency,
+                  structured controls, and better employer-to-worker payout visibility.
                 </p>
                 <div className="page-hero-actions">
                   <a className="btn btn-primary" href="/contact-us/">
@@ -35,16 +35,16 @@ export default function EWages() {
 
                 <div className="pg-pill-grid">
                   <article className="pg-pill-card">
-                    <h3>Faster Payouts</h3>
-                    <p>Digitized wage disbursement cycles</p>
+                    <h3>Real Transfer Tracking</h3>
+                    <p>Live payout status and confirmations</p>
                   </article>
                   <article className="pg-pill-card">
                     <h3>Compliance Clarity</h3>
-                    <p>Trackable and auditable wage flows</p>
+                    <p>Traceable and auditable wage flows</p>
                   </article>
                   <article className="pg-pill-card">
                     <h3>Operational Control</h3>
-                    <p>Centralized payroll payout visibility</p>
+                    <p>Centralized employer payout visibility</p>
                   </article>
                 </div>
               </div>
@@ -54,7 +54,7 @@ export default function EWages() {
                 <article className="pg-hero-block pg-hero-block-main">
                   <span>Wage Stack</span>
                   <h3>End-To-End E-Wages Operations</h3>
-                  <p>Handle wage setup, disbursement, confirmation, and reporting from one platform.</p>
+                  <p>Handle enrollment, payout execution, confirmation, and exception management in one platform.</p>
                 </article>
                 <div className="pg-hero-media-grid">
                   <article className="pg-hero-block pg-hero-block-mini pg-hero-media-card">

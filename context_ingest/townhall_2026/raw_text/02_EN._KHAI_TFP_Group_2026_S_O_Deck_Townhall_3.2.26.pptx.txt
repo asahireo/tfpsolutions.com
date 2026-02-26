@@ -1,0 +1,182 @@
+--- Slide 1 ---
+TFP Group of Companies
+SALES & BUSINESS OPERATION
+REVENUE DRIVES REWARD
+Built to Decide, Engineered to Deliver.
+TOWNHALL SESSION 4 FEB 2026
+[Notes] [Sources]
+- Internal: TFP Revenue Plan 2026 for Presentation.xlsx (totals & mix)
+[/Sources]
+
+--- Slide 2 ---
+TFP Group
+2026 Business Plan
+Revenue Achievement Plan
+2026 Revenue Target
+RM 12.4M
+2026 Gross Margin
+RM 4.9M
+Blended Gross Margin
+39.7%
+Growth Engines
+4
+Plan year: 1 Jan 2026 – 31 Dec 2026
+Built to Decide, Engineered to Deliver.
+[Notes] [Sources]
+- Internal: TFP Revenue Plan 2026 for Presentation.xlsx (totals & mix)
+[/Sources]
+
+--- Slide 3 ---
+Executive Summary
+TFP Group | 2026 Business Plan
+Revenue
+RM 12.4M
+Gross Margin
+RM 4.9M
+Margin %
+39.7%
+What must be true in 2026
+Predictable sales execution (CRM discipline, weekly cadence, KPI scorecard)
+Marketing engine (toolkit + campaigns + promotions + lead nurturing)
+•    Faster customer response (ticketing + SLA + escalation + customer success)
+Product stability & quality (release discipline, QA automation, RCA)
+Delivery capacity (tiered support + pods + partners)
+Motivating incentives (commission + accelerators + expense policy)
+6 Strategy Pillars
+1
+Sales Strategy & KPI Management
+2
+Marketing Strategy & Promotions
+3
+Customer Service (SLA & Turnaround)
+4
+2
+Product Strategy (Stability & Quality)
+5
+5
+Product Support (Capacity & Delivery)
+6
+Sales Compensation & Expenses
+[Notes] [Sources]
+- Internal: TFP_Group_2026_Business_Plan.docx (executive summary & pillars)
+- Internal: TFP Revenue Plan 2026 for Presentation.xlsx (targets)
+[/Sources]
+
+--- Slide 4 ---
+2026 Revenue Mix & Growth Engines
+TFP Group | 2026 Business Plan
+Engine targets
+Embedded Fintech & Digital Payments: 
+RM 6.6M | 25.0% 
+Workforce Ecosystem Mgmt: 
+RM 0.6M | 29.5% 
+Enterprise & Sector SaaS: 
+RM 3.2M | 65.9% 
+AI & Intelligent Solutions: 
+RM 2.0M | 50.0%
+Product revenue concentration (largest → smallest)
+[Notes] [Sources]
+- Internal: TFP Revenue Plan 2026 for Presentation.xlsx (engine + product targets)
+[/Sources]
+
+--- Slide 5 ---
+Go-to-Market Plays by Growth Engine
+TFP Group | 2026 Business Plan
+Embedded Fintech & Digital Payments
+Focus offers: S4S SIM + Wallet App, MiPay, SI-to-eWallet, Payment & POS Terminal & Solutions, Payment Gateway
+
+Target Market: Merchants / SME retail & F&B (multi-branch)
+Ecosystem platforms (cooperatives, membership, marketplaces, gig)
+Cross-border / foreign worker corridors (wallet + prepaid + apps)
+
+Sales motion: account-based selling + partner referrals
+Workforce Ecosystem Mgmt
+Focus offers: e-Wages, Smart HR, Fowex
+
+Target Market: Labour-intensive employers (manufacturing, plantation, construction, logistics)
+Recruitment agencies / outsourcing operators
+Payroll bureaus / HR service providers
+
+Sales motion: HR/payroll partners + packaged pilots
+Enterprise & Sector SaaS
+Focus offers: SAP B1, ICMIS, OneERP, e-Invoice, Digital Insurance, ICMIS
+
+Target: SMEs needing ERP modernization + e-Invoice readiness
+Cooperatives (member mgmt + finance/collection + reporting)
+Sector template rollouts (repeatable deployments)
+
+Sales motion: solution bundling + reference selling + renew/upsell
+AI & Intelligent Solutions
+Focus offers: AI solutioning & analytics, digital twin, predictive intelligence & risk scoring
+
+Target: Government / agencies / municipalities (cross-agency analytics, dashboards)
+Utilities / transport / manufacturing (digital twin + predictive ops)
+Financial institutions / cooperatives (risk scoring, anomaly/fraud analytics)
+
+Sales motion: use-case workshops → 6–10 week PoC/PoV → rollout; SI/cloud partners
+[Notes] [Sources]
+- Internal: TFP Revenue Plan 2026 for Presentation.xlsx (product mix)
+- Internal: TFP_Group_2026_Business_Plan.docx (go-to-market approach)
+[/Sources]
+
+--- Slide 6 ---
+Indicative 2026 Headcount Plan
+TFP Group | 2026 Business Plan
+Execution sizing (Sales/BD + Marketing + Pre-sales + Delivery + Post-sale Support) – indicative starting point for 2026
+Notes: (1) Embedded Fintech includes 1 dedicated Partnerships/Channel role. (2) Marketing can be centralized/shared across engines if budget requires. (3) Support can use a tiered L1 desk shared across products with L2 specialists by engine.
+
+--- Slide 7 ---
+1) Sales Strategy: KPI + Weekly Operating Rhythm
+TFP Group | 2026 Business Plan
+Sales operating system (non-negotiables)
+CRM is the single source of truth (pipeline, forecast, next step, close date)
+KPI scorecard per salesperson (weekly) + manager coaching
+3× pipeline coverage (next 90 days) to hit the revenue plan
+Weekly cadence: Monday pipeline, Wednesday deal coaching, Friday Mktg alignment
+Rule: “No CRM entry, no commission”
+Weekly KPI scorecard (per AE)
+New meetings: 8–12
+Proposals: 3–5
+New pipeline added: RM 150k–300k
+Pipeline coverage: ≥ 3.0× (90 days)
+Forecast accuracy: ±10% monthly
+Weekly meeting cadence
+Mon
+Pipeline & Forecast (60–90 min)
+CRM dashboard, blockers, next-step commitments
+Wed
+Deal Coaching (45–60 min)
+Top deals, pricing, stakeholder map, close plan
+Fri
+Sales + Marketing Alignment (30 min)
+Campaign leads, content needs, next-week focus
+Month-end
+Review (90 min)
+Forecast vs actual, conversion analysis, product feedback loop
+[Notes] [Sources]
+- Internal: TFP_Group_2026_Business_Plan.docx (Sales strategy & KPI table)
+[/Sources]
+
+--- Slide 8 ---
+6) Sales Compensation & Expense Policy (Motivation & Best Practice)
+TFP Group | 2026 Business Plan
+Objective: reward performance, increase accountability, and remove friction for selling activities
+Commission best-practice structure
+OTE model: Base + Variable or % of Net Invoice Value
+Commission paid on collected revenue or signed milestones
+Accelerators above 100% quota (e.g., 1.25×–1.5× payout rate)
+SPIFs for priority products / promotions (limited-time)
+Team bonus for delivery quality (protect margin + references)
+Controls (avoid disputes)
+Clear crediting rules • CRM hygiene required • Approvals for discounting • Clawback on cancellation
+Travel & entertainment (T&E) policy
+Allow claims with pre-approval thresholds (local vs outstation)
+Clear limits: mileage, hotel caps, meal caps, client entertainment
+Require receipts + purpose + customer name in claims
+Reimburse within 7–14 days (fast turnaround motivates usage)
+Use simple tools (Google Form/Expense app) + finance audit monthly
+Why this matters
+Removes friction for prospecting • enables more meetings • improves close rate • supports partner selling
+[Notes] [Sources]
+- Internal: TFP_Group_2026_Business_Plan.docx (compensation & expenses recommendations)
+[/Sources]

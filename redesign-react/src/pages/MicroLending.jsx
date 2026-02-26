@@ -1,13 +1,12 @@
 import { AnimatedSection } from '../components/AnimatedSection'
 import { WalletCards, HandCoins, ShieldCheck, BarChart3 } from 'lucide-react'
-import { featuredProductSpotlight } from '../siteData'
 import { WhyChooseMicroLending } from '../components/WhyChooseMicroLending'
 
 const channels = [
-  { icon: WalletCards, title: 'Digital Loan Onboarding', desc: 'Collect borrower information and documents through guided digital flows.' },
-  { icon: ShieldCheck, title: 'Risk & Policy Controls', desc: 'Apply credit rules and threshold checks before disbursement decisions.' },
-  { icon: HandCoins, title: 'Disbursement & Collections', desc: 'Run disbursement and repayment operations with structured timelines.' },
-  { icon: BarChart3, title: 'Portfolio Visibility', desc: 'Track lending performance and repayment behavior across cohorts.' },
+  { icon: WalletCards, title: 'Digital Loan Onboarding', desc: 'Capture borrower information and documents through guided digital processes.' },
+  { icon: ShieldCheck, title: 'Risk & Policy Controls', desc: 'Apply risk scoring, thresholds, and policy checks before funding decisions.' },
+  { icon: HandCoins, title: 'Disbursement & Collections', desc: 'Operate disbursement and repayment with structured reminders and timelines.' },
+  { icon: BarChart3, title: 'Portfolio Visibility', desc: 'Track repayment quality and collection outcomes across borrower segments.' },
 ]
 
 export default function MicroLending() {
@@ -21,8 +20,8 @@ export default function MicroLending() {
                 <span className="eyebrow">✦ Micro Lending</span>
                 <h1>Accessible Digital Lending For Growth Segments</h1>
                 <p>
-                  Deliver responsible micro-financing experiences with faster borrower onboarding,
-                  cleaner risk controls, and better repayment visibility across the lending cycle.
+                  Deliver responsible micro-financing with disciplined onboarding, risk governance,
+                  and portfolio visibility across approval, disbursement, and repayment cycles.
                 </p>
                 <div className="page-hero-actions">
                   <a className="btn btn-primary" href="/contact-us/">
@@ -59,13 +58,11 @@ export default function MicroLending() {
                 <div className="pg-hero-media-grid">
                   <article className="pg-hero-block pg-hero-block-mini pg-hero-media-card">
                     <h4>Product Walkthrough</h4>
-                    <div className="pg-hero-tiktok-frame">
-                      <iframe
-                        src={featuredProductSpotlight.tiktokEmbedUrl}
-                        title="Micro Lending TikTok"
-                        allow="encrypted-media; picture-in-picture"
-                        loading="lazy"
-                      />
+                    <div className="pg-hero-tiktok-frame pg-hero-video-placeholder">
+                      <div className="pg-hero-video-placeholder-inner">
+                        <strong>Video Coming Soon</strong>
+                        <p>Official Micro Lending walkthrough will be published here.</p>
+                      </div>
                     </div>
                   </article>
                 </div>

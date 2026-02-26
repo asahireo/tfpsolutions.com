@@ -1,0 +1,88 @@
+--- Slide 1 ---
+Features
+Transform Your Business with One Invoice
+Real-time invoice validation
+Automatic IRN generation
+QR Code for verification
+Standardized invoice format (JSON/XML)
+
+--- Slide 2 ---
+Invoicing 01
+E-Invoicing is the digital generation, validation, and exchange of invoices between businesses through a government-authorized system.
+Format 02
+It replaces manual or paper based invoicing with a standardized electronic format.
+Real Time Data 03
+Invoice data is reported in real-time (or near real time) to the tax authority portal for validation
+Regulations 04
+Ensures compliance with tax regulations and improves transparency in business transactions.
+Criteria
+Applicable mainly to VAT / GST registered businesses based on turnover criteria.
+Introduction
+
+--- Slide 3 ---
+Financial Management
+Integrated with All modules
+Bank
+Payments
+General Ledger, Accounts Receivable and Payable
+Cost Optimization
+Cost Center and budget control
+Bank reconciliation and cash flow forecasting
+Financial reporting and period closing automation
+
+--- Slide 4 ---
+1
+Organization & Company Management
+2
+Roles & Permissions Management
+3
+User Management
+4
+Master Settings
+Maintain multiple companies under each organization.
+Organization Management
+Manage company profiles as registered suppliers for invoicing
+Create roles under registered organizations.
+Assign permissions to each role
+Create, manage, and maintain system users, including adding new users and managing the user list
+Add and manage core system configuration data.
+
+--- Slide 5 ---
+Invoicing
+1
+Party Tax Setting
+2
+Invoicing
+3
+Multi Items
+4
+Terms
+Create invoices by selecting Document Type and Version (auto generated invoice code, date & time).
+Manage Supplier & Buyer details with TIN validation and auto-fill capability.
+Add multiple Line Items with automatic tax and total calculations.
+Include Additional Information such as payment terms and shipping details.
+
+--- Slide 6 ---
+1
+Consolidated Invoice
+2
+Self-Billed Invoice
+3
+Document List
+4
+Draft and Batch
+Create invoices without mandatory buyer information during draft stage.
+Organization Management
+Store multiple invoices before submission
+Submit selected invoices to LHDN in a single batch
+Generate self-billed invoices where the buyer issues the invoice on behalf of the supplier.
+System automatically categorizes invoices based on LHDN response
+Batch Upload feature allows bulk invoice creation via standardized Excel template
+
+--- Slide 7 ---
+System Overview
+
+--- Slide 8 ---
+Thank You!
+Let's Transform Your Business Together
+Implementation • Training • Support • Customization

@@ -3,19 +3,19 @@ import { motion, AnimatePresence, useMotionValue, useSpring, useTransform } from
 
 const reasons = [
   {
-    quote: 'Deploy modern countertop and mobile POS terminals with fast branch onboarding.',
+    quote: 'Deploy countertop and mobile terminals with structured merchant rollout workflows.',
     author: 'Rapid Device Rollout',
     role: 'Scale store deployments without operational delays.',
     company: 'Terminal Setup',
   },
   {
-    quote: 'Accept cards, QR, and digital wallet payments with stable in-store performance.',
+    quote: 'Accept cards, QR, and wallet payments with stable in-store checkout reliability.',
     author: 'Channel Coverage',
     role: 'Support every payment preference at checkout.',
     company: 'Multi Method',
   },
   {
-    quote: 'Manage terminals, settlements, and reconciliation from one operations workflow.',
+    quote: 'Manage terminals, settlements, and reconciliation with centralized support controls.',
     author: 'Operational Control',
     role: 'Keep finance and store teams synchronized daily.',
     company: 'Reporting',

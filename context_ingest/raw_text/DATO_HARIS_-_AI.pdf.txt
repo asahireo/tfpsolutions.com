@@ -1,0 +1,110 @@
+--- Page 1 ---
+T H E  4  P I L L A R S  O F  F U S I O N  I N T E L L I G E N C E
+
+--- Page 3 ---
+H i g h  P o w e r
+A n a l y t i c s  i n
+B i g  D a t a
+Today, most organizations emphasize data to
+drive business decisions, but data alone is not
+the goal. Facts and figures are meaningless if
+we cannot gain valuable insights that lead to  
+more informed action.
+Analytics solutions offer ways to leverage  
+business data, with multiple levels of analytics,  
+ranging from descriptive, diagnostic,  
+predictive, and prescriptive analytics.
+W h a t - i f  A n a l y s i s ,  R o o t
+C a u s e  A n a l y s i s ,  Q u e r y
+S i m u l a t i o n ,  R e g r e s s i o n
+A n a l y s i s ,  C a s u a l
+F o r e c a s t i n g
+O p t i m i z a t i o n  H e u r i s t i c s
+R u l e  B a s e d  S y s t e m s
+V i s u a l i z a t i o n  R e p o r t i n g  &
+D a t a  M i n i n g
+M a c h i n e  a n d  D e e p  L e a r n i n g
+N a t u r a l  L a n g u a g e
+P r o c e s s i n g
+P r e d i c t i v e  A n a l y t i c s  
+W h a t  w i l l  h a p p e n  ?
+D i a g n o s t i c  A n a l y t i c s
+ 
+D e s c r i p t i v e  A n a l y t i c s
+ 
+P r e s c r i p t i v e  A n a l y t i c s
+ 
+W h a t  h a p p e n s  ?
+W h y  i t  h a p p e n s  ?
+W h a t  m u s t  w e  d o  ?
+ 
+E f f o r t  t o  i n c r e a s e  h u m a n  r e a s o n i n g
+A r t i f i c i a l  I n t e l l i g e n c e
+I n s i g h t
+D e c i s i o n
+A c t i o n
+
+--- Page 4 ---
+Strategic  
+Level
+Analytics  
+Level
+Data & Application  
+Level
+LLM
+AI
+G E O S T R A T E G I C
+P O L I T I C A L
+S E C U R I T Y
+E C O N O M I C
+F I N A N C I A L
+M A R K E T
+I N D U S T R I A L
+D E M O G R A P H I C
+T E R R I T O R I A L
+F I N A N C I A L  D A T A  
+O P E R A T I O N  D A T A
+M A R K E T I N G  D A T A
+P R O D U C T I O N  D A T A  
+H R  D A T A  
+C O M P E T I T O R  D A T A
+I N T E R N A T I O N A L  D A T A
+G O V E R N M E N T  D A T A
+E C O N O M I C  D A T A
+W E A T H E R  &  T R A F F I C
+G E O G R A P H I C S
+N E W S  /  E V E N T S
+S O C I A L  M E D I A
+V I D E O  &  P O D C A S T
+U S E R  R E V I E W S
+H U M I N T
+S U R V E Y  &  R E S E A R C H
+B O O K S
+A P P L I C A T I O N S
+I N T E R N A L
+K N O W L E D G E  B A S E
+I N T E R N A L
+D A T A
+A N A L Y T I C S
+E X T E R N A L
+D A T A
+Most answers can be provided via
+WhatsApp as text, image, charts,
+voice, but detailed information can
+be accessed through mobile apps,
+email, web applications, reports,  
+dashboards, and other platforms.
+AGENT
+Text Image
+Write
+Voice
+Video
+m u l t i m o d a l
+AGENT
+AGENT
+AGENT
+AGENT
+M U L T I A G E N T
+G E N E R A T I V E  
+D A T A
+S C I E N C E

@@ -16,8 +16,8 @@ export default function Home() {
             <span className="eyebrow">✦ Productivity Through Innovation</span>
             <h1>Fintech and business platforms built for real operations.</h1>
             <p>
-              TFP Solutions Berhad provides integrated products across payment, payroll,
-              recruitment, ERP and cybersecurity for sustainable business growth.
+              TFP Solutions Berhad delivers a four-pillar growth engine spanning AI intelligence,
+              embedded fintech, workforce digitization, and enterprise software implementation.
             </p>
             <div className="hero-actions">
               <a className="btn btn-primary" href="#services">Explore Services</a>
@@ -29,8 +29,8 @@ export default function Home() {
                 <span className="stat-label">Years in operation</span>
               </div>
               <div className="stat">
-                <strong><AnimatedCounter value={10} suffix="+" /></strong>
-                <span className="stat-label">Core service lines</span>
+                <strong><AnimatedCounter value={4} /></strong>
+                <span className="stat-label">Growth engines</span>
               </div>
               <div className="stat">
                 <strong>Bursa</strong>
@@ -61,7 +61,7 @@ export default function Home() {
           <AnimatedSection className="section-header">
             <h2 className="section-title">Core Services</h2>
             <p className="section-subtitle">
-              Focused offerings that drive payment performance and digital transformation across industries.
+              Workshop-aligned solutions designed to convert strategy into measurable execution.
             </p>
           </AnimatedSection>
           <CardStack
@@ -99,7 +99,7 @@ export default function Home() {
           <AnimatedSection className="section-header">
             <h2 className="section-title">Why Choose TFP?</h2>
             <p className="section-subtitle">
-              Trusted by enterprises across Malaysia for nearly two decades of reliability.
+              Built to decide, engineered to deliver across regulated and high-volume operations.
             </p>
           </AnimatedSection>
           <div className="features-grid">

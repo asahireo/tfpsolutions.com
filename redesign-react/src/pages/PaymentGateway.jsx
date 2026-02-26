@@ -4,10 +4,10 @@ import { featuredProductSpotlight } from '../siteData'
 import { WhyChoosePaymentGateway } from '../components/WhyChoosePaymentGateway'
 
 const channels = [
-  { icon: Link2, title: 'Shareable Links', desc: 'Generate a hosted payment page and share it instantly with your customers.' },
-  { icon: ReceiptText, title: 'Flexible Invoicing', desc: 'Issue recurring or one-off invoices with customizable payment terms.' },
-  { icon: Smartphone, title: 'Mobile SDKs', desc: 'Accept payments inside iOS and Android apps using native SDK integrations.' },
-  { icon: PlugZap, title: 'Third-Party Integrations', desc: 'Connect with popular platforms and plugins through prebuilt connectors.' },
+  { icon: Link2, title: 'Payment Links', desc: 'Create shareable links for rapid collection without custom checkout development.' },
+  { icon: ReceiptText, title: 'Gateway Invoicing', desc: 'Issue one-off or scheduled invoices with payment status tracking and reminders.' },
+  { icon: Smartphone, title: 'Web & Mobile Flows', desc: 'Deploy browser, hosted, and app-based payment journeys from one gateway stack.' },
+  { icon: PlugZap, title: 'FPX by PayNet', desc: 'Support online banking rails with FPX, plus cards and digital wallet methods.' },
 ]
 
 export default function PaymentGateway() {
@@ -21,8 +21,8 @@ export default function PaymentGateway() {
                 <span className="eyebrow">✦ Payment Gateway</span>
                 <h1>Modern Payment Infrastructure For Growth</h1>
                 <p>
-                  From ecommerce stores and subscriptions to platforms and marketplaces, manage
-                  your payment stack across channels with faster setup and cleaner operations.
+                  MobilityOne Payment Gateway centralizes checkout, links, invoicing, and FPX
+                  acceptance with clear onboarding, reconciliation, and settlement operations.
                 </p>
                 <div className="page-hero-actions">
                   <a className="btn btn-primary" href="/contact-us/">
@@ -35,16 +35,16 @@ export default function PaymentGateway() {
 
                 <div className="pg-pill-grid">
                   <article className="pg-pill-card">
-                    <h3>Fast Onboarding</h3>
-                    <p>Integration-ready in minutes</p>
+                    <h3>Merchant Onboarding</h3>
+                    <p>Structured KYC and document workflow</p>
                   </article>
                   <article className="pg-pill-card">
-                    <h3>Fraud Controls</h3>
-                    <p>Data-backed risk management</p>
+                    <h3>FPX + Multi Method</h3>
+                    <p>Online banking, cards, wallet rails</p>
                   </article>
                   <article className="pg-pill-card">
-                    <h3>Multi-Channel</h3>
-                    <p>Web, invoicing, links, mobile</p>
+                    <h3>Integration Options</h3>
+                    <p>Web, links, invoicing, mobile</p>
                   </article>
                 </div>
               </div>
@@ -54,18 +54,16 @@ export default function PaymentGateway() {
                 <article className="pg-hero-block pg-hero-block-main">
                   <span>Payment Stack</span>
                   <h3>Unified Acceptance Layer</h3>
-                  <p>Checkout, links, invoicing, and app SDKs under one operational model.</p>
+                  <p>One platform for merchant collection, channel orchestration, and payment visibility.</p>
                 </article>
                 <div className="pg-hero-media-grid">
                   <article className="pg-hero-block pg-hero-block-mini pg-hero-media-card">
                     <h4>Product Walkthrough</h4>
-                    <div className="pg-hero-tiktok-frame">
-                      <iframe
-                        src={featuredProductSpotlight.tiktokEmbedUrl}
-                        title="Payment Gateway TikTok"
-                        allow="encrypted-media; picture-in-picture"
-                        loading="lazy"
-                      />
+                    <div className="pg-hero-tiktok-frame pg-hero-video-placeholder">
+                      <div className="pg-hero-video-placeholder-inner">
+                        <strong>Video Coming Soon</strong>
+                        <p>Official Payment Gateway walkthrough will be published here.</p>
+                      </div>
                     </div>
                   </article>
                 </div>
@@ -80,7 +78,7 @@ export default function PaymentGateway() {
           <AnimatedSection className="pg-section-head">
             <h2 className="section-title">Why Teams Choose {featuredProductSpotlight.title}</h2>
             <p className="section-subtitle">
-              Designed for quick launch, stronger conversion, and better operational visibility.
+              Built for launch speed, compliance readiness, and commercial clarity.
             </p>
           </AnimatedSection>
 

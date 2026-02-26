@@ -1,6 +1,5 @@
 import { AnimatedSection } from '../components/AnimatedSection'
 import { ShieldCheck, Radar, LockKeyhole, ServerCog, ScanSearch, Users } from 'lucide-react'
-import { featuredProductSpotlight } from '../siteData'
 
 const pillars = [
   { title: '24/7 Monitoring', desc: 'Continuous visibility across endpoints, network traffic, and critical workloads.' },
@@ -107,13 +106,11 @@ export default function CyberSecurity() {
                 <div className="pg-hero-media-grid">
                   <article className="pg-hero-block pg-hero-block-mini pg-hero-media-card">
                     <h4>Security Walkthrough</h4>
-                    <div className="pg-hero-tiktok-frame">
-                      <iframe
-                        src={featuredProductSpotlight.tiktokEmbedUrl}
-                        title="Cyber Security Overview"
-                        allow="encrypted-media; picture-in-picture"
-                        loading="lazy"
-                      />
+                    <div className="pg-hero-tiktok-frame pg-hero-video-placeholder">
+                      <div className="pg-hero-video-placeholder-inner">
+                        <strong>Video Coming Soon</strong>
+                        <p>Official Cyber Security walkthrough will be published here.</p>
+                      </div>
                     </div>
                   </article>
                 </div>

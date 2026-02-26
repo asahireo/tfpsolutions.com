@@ -27,8 +27,8 @@ export default function ManagementTeam() {
             <h1>Management Team</h1>
             <p>
               The operators and builders behind our products, platforms, and group execution.
-              This team turns strategy into delivery, with an enterprise mindset for uptime,
-              compliance, and customer impact.
+              This team turns strategy into delivery with clear accountability across operations,
+              technology, finance, and business development.
             </p>
 
             <div className="stats stats-compact">
@@ -41,7 +41,7 @@ export default function ManagementTeam() {
                 <span className="stat-label">Group operations</span>
               </div>
               <div className="stat">
-                <strong>Ops-first</strong>
+                <strong>KPI-led</strong>
                 <span className="stat-label">Execution culture</span>
               </div>
             </div>
@@ -96,7 +96,7 @@ export default function ManagementTeam() {
           <AnimatedSection className="section-header">
             <h2 className="section-title">Focus Areas</h2>
             <p className="section-subtitle">
-              Filter by what you need: strategy, operations, technology, finance, and subsidiary leadership.
+              Filter by what you need: strategy, operations, technology, finance, governance, and revenue.
             </p>
           </AnimatedSection>
 

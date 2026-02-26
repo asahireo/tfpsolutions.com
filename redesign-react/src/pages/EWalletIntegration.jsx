@@ -4,10 +4,10 @@ import { productTikTokEmbeds } from '../siteData'
 import { WhyChooseEWalletIntegration } from '../components/WhyChooseEWalletIntegration'
 
 const channels = [
-  { icon: PlugZap, title: 'API Integration', desc: 'Connect merchant systems to wallet rails with clean API contracts.' },
-  { icon: ArrowLeftRight, title: 'Live Status Events', desc: 'Receive real-time callbacks for authorization, success, and settlement.' },
-  { icon: Wallet, title: 'Multi-Wallet Support', desc: 'Enable multiple wallet providers through one integration strategy.' },
-  { icon: ShieldCheck, title: 'Secure Processing', desc: 'Protect data flows with controlled access and transaction safeguards.' },
+  { icon: PlugZap, title: 'Portal + Wallet APIs', desc: 'Connect MLM/merchant portals to MiPay with standardized payout API contracts.' },
+  { icon: ArrowLeftRight, title: 'Real-Time Payout Status', desc: 'Receive callback updates for trigger, authorization, success, and exception states.' },
+  { icon: Wallet, title: 'Profit & Bonus Disbursement', desc: 'Automate distribution of profit and bonus income directly to MiPay wallets.' },
+  { icon: ShieldCheck, title: 'Governance Controls', desc: 'Apply access control, audit trail, and compliance checkpoints across payout flows.' },
 ]
 
 export default function EWalletIntegration() {
@@ -21,8 +21,8 @@ export default function EWalletIntegration() {
                 <span className="eyebrow">✦ E-Wallet Integration (MiPay)</span>
                 <h1>Unified MiPay and Real-Time e-Wallet Integration</h1>
                 <p>
-                  Run MiPay wallet experiences and real-time e-wallet processing from one
-                  platform with cleaner reconciliation and scalable connectivity.
+                  Enable MiPay e-wallet experiences and direct member payout integration from
+                  one platform with transparent payout logic and operational governance.
                 </p>
                 <div className="page-hero-actions">
                   <a className="btn btn-primary" href="/contact-us/">
@@ -35,16 +35,16 @@ export default function EWalletIntegration() {
 
                 <div className="pg-pill-grid">
                   <article className="pg-pill-card">
-                    <h3>Real-Time Events</h3>
-                    <p>Immediate transaction state updates</p>
+                    <h3>Direct Wallet Payouts</h3>
+                    <p>Profit and bonus disbursement automation</p>
                   </article>
                   <article className="pg-pill-card">
-                    <h3>Unified API</h3>
-                    <p>Single integration approach</p>
+                    <h3>Integration Governance</h3>
+                    <p>Defined control points and auditability</p>
                   </article>
                   <article className="pg-pill-card">
                     <h3>Operational Clarity</h3>
-                    <p>Better reconciliation and reporting</p>
+                    <p>Live status, reconciliation, reporting</p>
                   </article>
                 </div>
               </div>
@@ -54,7 +54,7 @@ export default function EWalletIntegration() {
                 <article className="pg-hero-block pg-hero-block-main">
                   <span>Integration Stack</span>
                   <h3>Wallet Connectivity Layer</h3>
-                  <p>Handle wallet request flows, status sync, and settlement visibility in one place.</p>
+                  <p>Handle API payout triggers, wallet crediting, and status synchronization in one layer.</p>
                 </article>
                 <div className="pg-hero-media-grid">
                   <article className="pg-hero-block pg-hero-block-mini pg-hero-media-card">

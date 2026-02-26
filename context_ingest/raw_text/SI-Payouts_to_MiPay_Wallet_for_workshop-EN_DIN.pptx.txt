@@ -1,0 +1,167 @@
+--- Slide 1 ---
+INTEGRATION OVERVIEW
+MiPay e‑Wallet Integration
+with MLM Online Portal
+Enabling profit & bonus payouts directly to members’ MiPay accounts
+1
+
+--- Slide 2 ---
+AGENDA
+TODAY’S FLOW
+What • Why • How
+WHAT
+Integration scope & key components
+End-to-end payout journey
+WHY
+Business outcomes & member experience
+Governance, transparency & compliance
+HOW
+Architecture, API flows & security
+Timeline, deliverables & commercials
+2
+
+--- Slide 3 ---
+WHAT
+OVERVIEW
+What are we integrating?
+MiPay e‑Wallet + MLM Portal integration to disburse
+profit & bonus income to members’ MiPay accounts.
+API integration between MLM Portal and MiPay
+Automated profit & bonus allocation and payout triggers
+Real-time withdrawal to wallet with notifications & history
+Admin reporting dashboard with export (Excel/PDF)
+MLM Portal
+MiPay
+Wallet
+Secure APIs
++ Auth
+Outcome: automated, transparent and secure payouts
+from portal to wallet
+MiPay ↔ AIG Dr360 | Integration for Profit & Bonus Payouts
+3
+
+--- Slide 4 ---
+WHY
+BUSINESS VALUE
+Why this integration matters
+Automation & efficiency
+Reduce manual payout processing and reconciliation effort.
+Faster member payouts
+Real-time withdrawal workflow improves member satisfaction.
+Transparency & trust
+Notifications + transaction history build confidence.
+Governance & compliance
+Encrypted transfers and audit trails support regulatory needs.
+4
+
+--- Slide 5 ---
+HOW
+HOW IT WORKS (BUILD)
+End‑to‑end payout journey
+Step-by-step view:
+A member initiates a withdrawal from the MLM portal. The portal triggers a secure payout request to MiPay. MiPay credits the member wallet and returns status updates.
+1
+Member withdraws
+2
+Portal validates
+3
+MiPay credits wallet
+4
+Notify + record
+5
+Member uses funds
+5
+ADIMAS
+Online Portal
+Admin is given credentials
+Download from IOS & Android Srores
+Top-up Spin pool for disbursement
+
+--- Slide 6 ---
+HOW
+MEMBER EXPERIENCE
+Withdrawal mechanism
+1) Member requests withdrawal
+From the AIG portal withdrawal screen
+2) Real‑time payout
+MiPay credits the wallet and returns status
+3) Notify + history
+Member and admin can view transaction history
+Built-in: notifications and transaction history for members and admin
+11
+
+--- Slide 7 ---
+HOW
+OPERATIONAL VISIBILITY
+Reporting & admin dashboard
+Reporting requirements
+Reports are exportable in Excel or PDF (as required by the client).
+Report
+What it answers
+Payout summary
+Total payouts by period, status, channel
+Member statements
+Per-member payout & withdrawal history
+Exception report
+Failed / reversed payouts and reasons
+Audit log
+Full trace: who/when/what changed + reference IDs
+12
+
+--- Slide 8 ---
+DELIVERABLES
+DELIVERABLES & SUPPORT
+What you will receive
+Core deliverables
+Successful API integration with MiPay e‑Wallet to AIG Online Portal
+Profit/bonus payout workflow
+Admin reporting dashboard
+User & technical documentation
+Enablement & support
+ADIMAS Portal for Spin pool top‑up and disbursement
+3 days training for admin staff
+30 days post‑implementation support
+15
+
+--- Slide 9 ---
+TIMELINE
+PLAN
+Project timeline (5 weeks)
+Weeks
+1
+2
+3
+4
+5
+Requirement Gathering & Design
+1 week
+Development & Integration
+2 weeks
+Testing, UAT & FAT
+1 week
+Deployment & Training
+1 week
+Total duration: 5 weeks
+16
+
+--- Slide 10 ---
+COMMERCIALS
+COMMERCIAL PROPOSAL
+Investment & pricing (summary)
+One‑time investment
+RM 4,800
+Integration & automation scope
+Annual maintenance
+RM 4,800 / year
+Support & updates
+Disbursement fee
+RM 2 / withdrawal
+Per payout transaction
+Payment terms (system integration)
+50% deposit upon commencement
+40% upon successful UAT & FAT
+10% after one month of go‑live
+Member requirement
+MiPay prepaid Mastercard: RM 25 per card
+MiPay app available on iOS & Android stores
+17

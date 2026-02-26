@@ -6,6 +6,13 @@ import { partners, values } from '../siteData'
 import { RollingTextList } from '../components/RollingTextList'
 import { GroupStructure } from '../components/GroupStructure'
 
+const executionEngines = [
+  ['lightning', 'Marketing & Revenue', 'Demand generation, sales execution, and recurring revenue focus.'],
+  ['building', 'Product, Platform & Analytics', 'Build once, scale many with platform reliability and adoption.'],
+  ['shield', 'Delivery & Implementation', 'Convert signed contracts into live systems with SLA discipline.'],
+  ['clock', 'Capital, Risk & Governance', 'Protect cashflow, controls, and board-level governance outcomes.'],
+]
+
 export default function CorporateOverview() {
   const [isChairmanExpanded, setIsChairmanExpanded] = useState(false)
 
@@ -18,7 +25,8 @@ export default function CorporateOverview() {
             <h1>Productivity Through Innovation</h1>
             <p>
               TFP Solutions Berhad stands for Telecommunications, FinTech and App Platform.
-              The group has progressively evolved to stay at the forefront of the IT business sector.
+              The group now executes a four-pillar model covering AI, fintech infrastructure,
+              workforce ecosystem, and enterprise SaaS delivery.
             </p>
             <div className="page-hero-actions">
               <a className="btn btn-primary" href="/corporate-information/">Corporate Information</a>
@@ -136,7 +144,8 @@ export default function CorporateOverview() {
           <AnimatedSection className="section-header">
             <h2 className="section-title">What We Do</h2>
             <p className="section-subtitle">
-              Integrated products and services across fintech, payments, HR, and operations platforms.
+              Integrated products across payment gateway, MiPay wallet, SmartHR payroll,
+              e-Invoice, ERP, FoWeX, and cooperative digital systems.
             </p>
           </AnimatedSection>
 
@@ -145,6 +154,29 @@ export default function CorporateOverview() {
               <RollingTextList />
             </div>
           </AnimatedSection>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <AnimatedSection className="section-header">
+            <h2 className="section-title">How We Execute</h2>
+            <p className="section-subtitle">
+              Four execution engines translate the growth strategy into measurable delivery.
+            </p>
+          </AnimatedSection>
+
+          <div className="features-grid">
+            {executionEngines.map(([icon, title, desc], i) => (
+              <AnimatedSection key={title} delay={i * 0.08}>
+                <div className="feature-card">
+                  <FeatureIcon name={icon} />
+                  <h3>{title}</h3>
+                  <p>{desc}</p>
+                </div>
+              </AnimatedSection>
+            ))}
+          </div>
         </div>
       </section>
 

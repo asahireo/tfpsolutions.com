@@ -1,13 +1,12 @@
 import { AnimatedSection } from '../components/AnimatedSection'
 import { MonitorSmartphone, Store, CreditCard, Boxes } from 'lucide-react'
-import { featuredProductSpotlight } from '../siteData'
 import { WhyChoosePaymentTerminal } from '../components/WhyChoosePaymentTerminal'
 
 const channels = [
-  { icon: Store, title: 'Retail Counters', desc: 'Serve walk-in customers with stable, fast in-store checkout terminals.' },
-  { icon: MonitorSmartphone, title: 'Portable POS', desc: 'Use compact terminal devices for pop-ups, field teams, and events.' },
-  { icon: CreditCard, title: 'Omni-Payment Acceptance', desc: 'Process card, wallet, QR, and contactless payment methods in one flow.' },
-  { icon: Boxes, title: 'Multi-Branch Operations', desc: 'Manage devices, status, and support across many outlets centrally.' },
+  { icon: Store, title: 'Retail Counters', desc: 'Serve walk-in customers with stable in-store checkout and settlement flows.' },
+  { icon: MonitorSmartphone, title: 'Portable POS', desc: 'Use compact terminals for field teams, events, and mobile merchant operations.' },
+  { icon: CreditCard, title: 'Omni-Payment Acceptance', desc: 'Accept cards, wallet, QR, and contactless methods in one operational workflow.' },
+  { icon: Boxes, title: 'Multi-Branch Control', desc: 'Monitor terminal health, support tickets, and merchant rollout status centrally.' },
 ]
 
 export default function PaymentTerminal() {
@@ -21,14 +20,14 @@ export default function PaymentTerminal() {
                 <span className="eyebrow">✦ Payment Terminal</span>
                 <h1>Smart In-Store Payment Terminal Infrastructure</h1>
                 <p>
-                  From retail counters to multi-branch operations, launch secure terminal payments
-                  with cleaner device control, faster transaction flow, and reliable settlements.
+                  Build merchant acceptance operations with terminal + POS infrastructure designed
+                  for deployment speed, transaction reliability, and centralized control.
                 </p>
                 <div className="page-hero-actions">
                   <a className="btn btn-primary" href="/contact-us/">
                     Start With Sales
                   </a>
-                  <a className="btn btn-ghost" href={featuredProductSpotlight.ctaHref}>
+                  <a className="btn btn-ghost" href="/payment-terminal/">
                     Product Site
                   </a>
                 </div>
@@ -59,13 +58,11 @@ export default function PaymentTerminal() {
                 <div className="pg-hero-media-grid">
                   <article className="pg-hero-block pg-hero-block-mini pg-hero-media-card">
                     <h4>Product Walkthrough</h4>
-                    <div className="pg-hero-tiktok-frame">
-                      <iframe
-                        src={featuredProductSpotlight.tiktokEmbedUrl}
-                        title="Payment Terminal TikTok"
-                        allow="encrypted-media; picture-in-picture"
-                        loading="lazy"
-                      />
+                    <div className="pg-hero-tiktok-frame pg-hero-video-placeholder">
+                      <div className="pg-hero-video-placeholder-inner">
+                        <strong>Video Coming Soon</strong>
+                        <p>Official Payment Terminal walkthrough will be published here.</p>
+                      </div>
                     </div>
                   </article>
                 </div>

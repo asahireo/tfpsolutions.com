@@ -1,0 +1,170 @@
+[
+  {
+    "file": "DATO HARIS - AI.pdf",
+    "ocr_chars": 4420,
+    "ocr_units": 5,
+    "status": "ok",
+    "duplicate_of": null
+  },
+  {
+    "file": "DATO HARIS.pdf",
+    "ocr_chars": 4420,
+    "ocr_units": 5,
+    "status": "ok",
+    "duplicate_of": "DATO HARIS - AI.pdf"
+  },
+  {
+    "file": "DATO RAHIM - R2H Townhall.pptx",
+    "ocr_chars": 2132,
+    "ocr_units": 45,
+    "status": "ok",
+    "duplicate_of": null
+  },
+  {
+    "file": "EInvoice-Nabeel.pptx",
+    "ocr_chars": 1621,
+    "ocr_units": 19,
+    "status": "ok",
+    "duplicate_of": null
+  },
+  {
+    "file": "EN. DIN - MobilityOne Payment Gateway Product Overview.pptx",
+    "ocr_chars": 106,
+    "ocr_units": 3,
+    "status": "ok",
+    "duplicate_of": null
+  },
+  {
+    "file": "EN. DIN - SI-Payouts to MiPay Wallet for Workshop.pptx",
+    "ocr_chars": 0,
+    "ocr_units": 12,
+    "status": "no_ocr_text",
+    "duplicate_of": null
+  },
+  {
+    "file": "ENUTA - Introduction Smart HR & Payroll System.pptx",
+    "ocr_chars": 5942,
+    "ocr_units": 20,
+    "status": "ok",
+    "duplicate_of": null
+  },
+  {
+    "file": "FoWex Latest kedah-NICHOLAS.pptx",
+    "ocr_chars": 5195,
+    "ocr_units": 23,
+    "status": "ok",
+    "duplicate_of": null
+  },
+  {
+    "file": "ITINERARY FOR PRODUCT TRAINING WORKSHOP 2026.pdf",
+    "ocr_chars": 2630,
+    "ocr_units": 2,
+    "status": "ok",
+    "duplicate_of": null
+  },
+  {
+    "file": "KAK SU - MiPay Prepaid Master Card.pptx",
+    "ocr_chars": 5642,
+    "ocr_units": 50,
+    "status": "ok",
+    "duplicate_of": null
+  },
+  {
+    "file": "KAK SU - S4S MiPAY Product knowledge.pptx",
+    "ocr_chars": 3375,
+    "ocr_units": 52,
+    "status": "ok",
+    "duplicate_of": null
+  },
+  {
+    "file": "MiPay Prepaid Master Card-KAK SU.pptx",
+    "ocr_chars": 5642,
+    "ocr_units": 50,
+    "status": "ok",
+    "duplicate_of": "KAK SU - MiPay Prepaid Master Card.pptx"
+  },
+  {
+    "file": "MobilityOne_Payment_Gateway_Product_Overview-EN DIN.pptx",
+    "ocr_chars": 106,
+    "ocr_units": 3,
+    "status": "ok",
+    "duplicate_of": "EN. DIN - MobilityOne Payment Gateway Product Overview.pptx"
+  },
+  {
+    "file": "NABEEL - OneERP.pptx",
+    "ocr_chars": 5633,
+    "ocr_units": 69,
+    "status": "ok",
+    "duplicate_of": null
+  },
+  {
+    "file": "NABEEL - SAP.pptx",
+    "ocr_chars": 1066,
+    "ocr_units": 33,
+    "status": "ok",
+    "duplicate_of": null
+  },
+  {
+    "file": "NABEEL - eInvoice.pptx",
+    "ocr_chars": 1621,
+    "ocr_units": 19,
+    "status": "ok",
+    "duplicate_of": "EInvoice-Nabeel.pptx"
+  },
+  {
+    "file": "NICHOLAS - FoWex Latest kedah.pptx",
+    "ocr_chars": 5195,
+    "ocr_units": 23,
+    "status": "ok",
+    "duplicate_of": "FoWex Latest kedah-NICHOLAS.pptx"
+  },
+  {
+    "file": "One ERP-NABEEL.pptx",
+    "ocr_chars": 5633,
+    "ocr_units": 69,
+    "status": "ok",
+    "duplicate_of": "NABEEL - OneERP.pptx"
+  },
+  {
+    "file": "PRODUCT TRAINING WORKSHOP COOPERATIVE KOF - SALIH.pptx",
+    "ocr_chars": 469,
+    "ocr_units": 14,
+    "status": "ok",
+    "duplicate_of": null
+  },
+  {
+    "file": "SALIH - Product Training Workshop Cooperative KOF.pptx",
+    "ocr_chars": 469,
+    "ocr_units": 14,
+    "status": "ok",
+    "duplicate_of": "PRODUCT TRAINING WORKSHOP COOPERATIVE KOF - SALIH.pptx"
+  },
+  {
+    "file": "SAP-NABEEL.pptx",
+    "ocr_chars": 1066,
+    "ocr_units": 33,
+    "status": "ok",
+    "duplicate_of": "NABEEL - SAP.pptx"
+  },
+  {
+    "file": "SI-Payouts to MiPay Wallet for workshop-EN DIN.pptx",
+    "ocr_chars": 0,
+    "ocr_units": 12,
+    "status": "no_ocr_text",
+    "duplicate_of": "EN. DIN - SI-Payouts to MiPay Wallet for Workshop.pptx"
+  },
+  {
+    "file": "YUN - M1 E-Wages Brochure 061125.pptx",
+    "ocr_chars": 7185,
+    "ocr_units": 45,
+    "status": "ok",
+    "duplicate_of": null
+  },
+  {
+    "file": "s4s mipay Product knowledge-KAK SU.pptx",
+    "ocr_chars": 3375,
+    "ocr_units": 52,
+    "status": "ok",
+    "duplicate_of": "KAK SU - S4S MiPAY Product knowledge.pptx"
+  }
+]

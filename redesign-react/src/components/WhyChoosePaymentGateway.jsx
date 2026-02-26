@@ -3,21 +3,21 @@ import { motion, AnimatePresence, useMotionValue, useSpring, useTransform } from
 
 const reasons = [
   {
-    quote: 'Get started in minutes with secure acceptance and direct bank settlement.',
-    author: 'Fast Onboarding',
-    role: 'Launch quickly with developer-friendly tooling.',
-    company: 'Account Setup',
+    quote: 'Onboard merchants with structured documents and clear compliance checkpoints.',
+    author: 'Onboarding Discipline',
+    role: 'Reduce go-live friction with a repeatable setup model.',
+    company: 'Merchant Setup',
   },
   {
-    quote: 'Improve approval rates while reducing fraud using smarter risk controls.',
-    author: 'Revenue Optimization',
-    role: 'Protect margin and conversion on every payment.',
-    company: 'Fraud & Auth',
+    quote: 'Support FPX by PayNet and multiple payment methods with reliable settlement visibility.',
+    author: 'Channel Readiness',
+    role: 'Improve coverage without fragmenting operations.',
+    company: 'Acceptance',
   },
   {
-    quote: 'Support hosted checkout, custom UI, links, invoicing, and mobile SDKs.',
-    author: 'Flexible Integrations',
-    role: 'Choose implementation paths by business model.',
+    quote: 'Deploy checkout, links, invoicing, and mobile flows from one gateway operating model.',
+    author: 'Integration Flexibility',
+    role: 'Choose the right path for each merchant segment.',
     company: 'Multi-Channel',
   },
 ]

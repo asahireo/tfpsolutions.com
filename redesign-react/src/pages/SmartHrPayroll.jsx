@@ -4,10 +4,10 @@ import { productTikTokEmbeds } from '../siteData'
 import { WhyChooseSmartHrPayroll } from '../components/WhyChooseSmartHrPayroll'
 
 const channels = [
-  { icon: Users, title: 'Employee Lifecycle', desc: 'Manage workforce records, onboarding, and status updates in one system.' },
-  { icon: Calculator, title: 'Payroll Automation', desc: 'Automate salary calculations, deductions, and payroll execution cycles.' },
-  { icon: ShieldCheck, title: 'Compliance Controls', desc: 'Apply policy and statutory checks with standardized payroll governance.' },
-  { icon: BarChart3, title: 'HR & Payroll Reporting', desc: 'Track workforce metrics, payroll outputs, and operational insights.' },
+  { icon: Users, title: 'Employee Lifecycle', desc: 'Manage employee records, attendance, and status updates in one HR system.' },
+  { icon: Calculator, title: 'Payroll Automation', desc: 'Automate salary, overtime, claims, and deductions with configurable payroll cycles.' },
+  { icon: ShieldCheck, title: 'Statutory Compliance', desc: 'Support KWSP, PERKESO, PCB, ePayslip, EA form, and policy-driven controls.' },
+  { icon: BarChart3, title: 'Employer Dashboards', desc: 'Review daily reports, attendance summaries, and payroll exception insights.' },
 ]
 
 export default function SmartHrPayroll() {
@@ -21,8 +21,8 @@ export default function SmartHrPayroll() {
                 <span className="eyebrow">✦ SmartHR Payroll</span>
                 <h1>Automated HR & Payroll Operations Platform</h1>
                 <p>
-                  Simplify HR workflows and payroll execution with a centralized platform built for
-                  accurate calculations, compliance readiness, and better workforce visibility.
+                  SmartHR & Payroll unifies workforce administration and payroll processing with
+                  statutory-ready automation, attendance tracking, and disbursement visibility.
                 </p>
                 <div className="page-hero-actions">
                   <a className="btn btn-primary" href="/contact-us/">
@@ -36,15 +36,15 @@ export default function SmartHrPayroll() {
                 <div className="pg-pill-grid">
                   <article className="pg-pill-card">
                     <h3>HR Automation</h3>
-                    <p>Streamline workforce admin workflows</p>
+                    <p>Attendance and lifecycle workflows</p>
                   </article>
                   <article className="pg-pill-card">
                     <h3>Payroll Precision</h3>
-                    <p>Reliable salary and deduction processing</p>
+                    <p>Salary, OT, claims, deductions</p>
                   </article>
                   <article className="pg-pill-card">
-                    <h3>Compliance Ready</h3>
-                    <p>Policy checks embedded in operations</p>
+                    <h3>Statutory Ready</h3>
+                    <p>KWSP, PERKESO, PCB support</p>
                   </article>
                 </div>
               </div>

@@ -64,7 +64,7 @@ export const navMenuItems = [
         title: 'Payments',
         items: [
           { label: 'Payment Gateway', href: '/payment-gateway/', description: 'Online payment processing stack.' },
-          { label: 'Payment Terminal & POS', href: '/payment-terminal/', description: 'Payment terminal and POS solutions.' },
+          { label: 'Payment Terminal & POS', href: '/payment-terminal/', description: 'Merchant terminal acceptance and branch POS operations.' },
           { label: 'E-Wallet Integration (MiPay)', href: '/e-wallet-integration/', description: 'Unified MiPay wallet app and real-time e-wallet integration stack.' },
           { label: 'Micro Lending', href: '/micro-lending/', description: 'Accessible lending solutions for underserved markets.' },
         ],
@@ -72,16 +72,16 @@ export const navMenuItems = [
       {
         title: 'Workforce',
         items: [
-          { label: 'SmartHR Payroll', href: '/smarthr-payroll/', description: 'Payroll and workforce administration platform.' },
-          { label: 'E-Wages', href: '/e-wages/', description: 'Digital wage payment ecosystem.' },
-          { label: 'FoWeX Networking', href: '/fwex/', description: 'Combined recruitment, onboarding, and workforce networking platform.' },
+          { label: 'SmartHR Payroll', href: '/smarthr-payroll/', description: 'Statutory-ready payroll and workforce administration platform.' },
+          { label: 'E-Wages', href: '/e-wages/', description: 'Digital wage disbursement ecosystem for regulated operations.' },
+          { label: 'FoWeX Networking', href: '/fwex/', description: 'Foreign workforce permit, onboarding, and ecosystem services.' },
         ],
       },
       {
         title: 'Enterprise',
         items: [
-          { label: 'SAP Business One', href: '/sap-2/', description: 'ERP licensing, deployment, and implementation services.' },
-          { label: 'e-Invoice', href: '/e-invoice/', description: 'Electronic invoicing solutions.' },
+          { label: 'SAP Business One', href: '/sap-2/', description: 'SAP B1 and OneERP deployment and implementation services.' },
+          { label: 'e-Invoice', href: '/e-invoice/', description: 'IRN-ready e-Invoice and compliance workflows.' },
         ],
       },
       {
@@ -128,7 +128,7 @@ export const growthIntegratedEngines = [
   {
     id: 'fintech',
     title: 'Embedded Fintech & Digital Payments',
-    description: 'Comprehensive digital payment and financial solutions.',
+    description: 'Transaction engine for collections, disbursements, and payment orchestration.',
     subsidiaries: [
       {
         name: 'MBP Solutions',
@@ -160,7 +160,7 @@ export const growthIntegratedEngines = [
   {
     id: 'workforce',
     title: 'Workforce & Labour Ecosystem Management',
-    description: 'End-to-end management for workforce and foreign labour.',
+    description: 'Workforce compliance and financial inclusion flows across labour ecosystems.',
     subsidiaries: [
       {
         name: 'Softpac Technology',
@@ -187,7 +187,7 @@ export const growthIntegratedEngines = [
   {
     id: 'enterprise',
     title: 'Enterprise & Sector SaaS',
-    description: 'Scalable enterprise software and cooperative management.',
+    description: 'Recurring software engine for ERP, e-Invoice, and cooperative platforms.',
     subsidiaries: [
       {
         name: 'SBOne Solutions',
@@ -208,7 +208,7 @@ export const growthIntegratedEngines = [
   {
     id: 'ai',
     title: 'AI & Intelligent Solutions',
-    description: 'Advanced AI, analytics, and insurtech solutions.',
+    description: 'Decision intelligence engine for analytics, automation, and digital twin use cases.',
     subsidiaries: [
       {
         name: 'Comm Zed',
@@ -243,11 +243,11 @@ export const mobileNavLinks = flattenNavMenu(navMenuItems)
 
 export const features = [
   ['building', 'Public Listed', 'Listed on Bursa Malaysia with transparent governance and proven track record.'],
-  ['lightning', 'Integrated Stack', 'Unified ecosystem across payment, HR, and business operations.'],
-  ['shield', 'Enterprise Security', 'Bank-grade encryption and compliance with industry standards.'],
+  ['lightning', '4 Growth Engines', 'AI, Fintech, Workforce Ecosystem, and Enterprise SaaS under one strategy.'],
+  ['shield', '4 Execution Engines', 'Marketing & Revenue, Product & Platform, Delivery, and Governance disciplines.'],
   ['globe', 'Regional Reach', 'Serving businesses across Malaysia and Southeast Asia.'],
   ['clock', '18+ Years', 'Nearly two decades of fintech innovation and reliability.'],
-  ['headset', 'Dedicated Support', '24/7 technical assistance and account management.'],
+  ['headset', 'KPI-Led Delivery', 'Execution linked to measurable outcomes across teams and business units.'],
 ]
 
 export const values = [
@@ -296,11 +296,13 @@ export const featuredProductSpotlight = {
 
 export const productTikTokEmbeds = {
   default: featuredProductSpotlight.tiktokEmbedUrl,
-  eWalletIntegration: 'https://www.tiktok.com/embed/v2/7547643469863374087', // S4S Sim & Wallet apps
-  smartHrPayroll: 'https://www.tiktok.com/embed/v2/7537995860496485640', // e-Wages digitalization for employers
-  eWages: 'https://www.tiktok.com/embed/v2/7553839902140452114', // e-Wages eWallet benefits for foreign workers
-  eInvoice: 'https://www.tiktok.com/embed/v2/7497187765746945287', // e-Invoice compliance awareness
-  fwex: 'https://www.tiktok.com/embed/v2/7522043144297352466', // Permit rejection and sector switch guidance
+  simCard: 'https://www.tiktok.com/embed/v2/7547643469863374087',
+  eWages: 'https://www.tiktok.com/embed/v2/7537995860496485640',
+  eInvoice: 'https://www.tiktok.com/embed/v2/7497187765746945287',
+  miPayEWallet: 'https://www.tiktok.com/embed/v2/7553839902140452114',
+  fwex: 'https://www.tiktok.com/embed/v2/7522043144297352466',
+  eWalletIntegration: 'https://www.tiktok.com/embed/v2/7553839902140452114',
+  smartHrPayroll: 'https://www.tiktok.com/embed/v2/7537995860496485640',
 }
 
 export const galleryItems = [
@@ -341,6 +343,7 @@ export const footerLinks = {
     ['E-Wallet Integration (MiPay)', '/e-wallet-integration/'],
     ['SmartHR Payroll', '/smarthr-payroll/'],
     ['Payment Gateway', '/payment-gateway/'],
+    ['E-Wages', '/e-wages/'],
   ],
   Company: [
     ['About Us', '/about-us/'],
@@ -350,9 +353,9 @@ export const footerLinks = {
     ['Corporate Structure', '/group-structure/'],
   ],
   Resources: [
-    ['Press Releases', '/investor-relations/'],
-    ['Annual Reports', '/investor-relations/'],
-    ['Board of Directors', '/board-of-directors/'],
+    ['Investor Updates', '/investor-relations/'],
+    ['AGM / EGM Centre', '/agm-egm/'],
+    ['Corporate Overview', '/corporate-overview/'],
     ['Contact Us', '/contact-us/'],
   ],
 }
@@ -503,8 +506,8 @@ export const boardMembers = [
 Dato’ Hussian has been an entrepreneur since in his mid-20s. He was involved in the businesses of trading and shipping and subsequently ventured into the Information and Communications Technology (“ICT”) industry. He has extensive experience in the ICT industry and currently is the Executive Director and major shareholder of MobilityOne Limited (“MobilityOne”), which is listed on AIM of the London Stock Exchange. MobilityOne is an e-commerce infrastructure payment solutions and platform provider that works closely with most of the telecommunication companies and financial institutions in Malaysia.`,
   },
   {
-    name: 'Dato Haris Ismail',
-    role: 'Director, A.I. & Analytics',
+    name: 'Dato’ Haris Bin Ismail',
+    role: 'Corporate Advisor',
     image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=900',
     imagePosition: 'center 36%',
     bio: 'Profile details to be updated upon final confirmation. This entry is reserved for Director, A.I. & Analytics.',
@@ -561,31 +564,31 @@ He also took other roles, such as Chief Financial Officer at VtoV.com PLC in Los
 
 export const managementTeam = [
   {
-    name: 'Din Khalid',
-    role: 'Group Chief Operating Officer (GCOO)',
-    image: 'https://tfp.com.my/wp-content/uploads/2023/10/Din-Khalid-1.gif',
-    tags: ['Operations', 'Delivery'],
+    name: 'Tuan Haji Khairuddin Bin Khalid',
+    role: 'COO',
+    image: '/images/management/khairuddin.png',
+    tags: ['Operations', 'Delivery', 'Strategy'],
     unit: 'TFP Group of Companies',
   },
   {
-    name: 'Ahmad Shahrir Bin Mohd. Salleh',
-    role: 'Chief Operating Officer',
-    image: 'https://tfp.com.my/wp-content/uploads/2023/10/Ahmad-Shahrir-Bin-Mohd.-Salleh-1.gif',
-    tags: ['Subsidiary', 'Operations'],
-    unit: 'OneCENT Sdn Bhd',
-  },
-  {
-    name: 'Daniel',
-    role: 'Management Team',
+    name: 'Encik Daniel Mohamed',
+    role: 'BDD',
     image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=900',
-    tags: ['Leadership', 'Operations'],
+    tags: ['Leadership', 'Business Development', 'Revenue'],
     unit: 'TFP Group of Companies',
   },
   {
-    name: 'Sazali',
-    role: 'Management Team',
-    image: 'https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&q=80&w=900',
-    tags: ['Operations'],
+    name: 'Sazali Shahid',
+    role: 'CTO',
+    image: '/images/management/sazali.png',
+    tags: ['Technology', 'Platform', 'AI'],
+    unit: 'TFP Group of Companies',
+  },
+  {
+    name: 'Encik Sharin Bin Mohamed Sahari',
+    role: 'CFO',
+    image: '/images/management/sharin.png',
+    tags: ['Finance', 'Governance', 'KPI'],
     unit: 'TFP Group of Companies',
   },
 ]

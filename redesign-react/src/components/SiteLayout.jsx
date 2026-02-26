@@ -79,8 +79,8 @@ export function SiteLayout({ children }) {
                 <span>TFP Solutions Berhad</span>
               </div>
               <p className="footer-about">
-                A publicly listed fintech company on Bursa Malaysia, delivering integrated
-                business solutions across payment, HR, and enterprise technology.
+                A publicly listed group on Bursa Malaysia, operating a 4 Growth Engine model
+                across AI, fintech, workforce ecosystem, and enterprise SaaS platforms.
               </p>
             </div>
             {Object.entries(footerLinks).map(([title, links]) => (
@@ -101,9 +101,9 @@ export function SiteLayout({ children }) {
               © {new Date().getFullYear()} TFP Solutions Berhad. All rights reserved.
             </p>
             <div className="social-links">
-              <a href="#" className="social-link" aria-label="LinkedIn">in</a>
-              <a href="#" className="social-link" aria-label="Facebook">f</a>
-              <a href="#" className="social-link" aria-label="Twitter">X</a>
+              <a href="https://www.linkedin.com/company/tfp-solutions-berhad/" className="social-link" aria-label="LinkedIn" target="_blank" rel="noreferrer">in</a>
+              <a href="https://www.facebook.com/TFPSolutionsBerhad/" className="social-link" aria-label="Facebook" target="_blank" rel="noreferrer">f</a>
+              <a href="https://twitter.com/tfp_solutions" className="social-link" aria-label="Twitter" target="_blank" rel="noreferrer">X</a>
             </div>
           </div>
         </div>

@@ -3,16 +3,16 @@ import { FileCheck2, ArrowLeftRight, Landmark, BarChart3, ShieldCheck, Workflow 
 import { productTikTokEmbeds } from '../siteData'
 
 const pillars = [
-  { title: 'Compliance First', desc: 'Built to support tax and e-invoicing compliance requirements.' },
-  { title: 'Faster Settlement', desc: 'Cleaner invoice workflows help reduce processing delays.' },
-  { title: 'Lower Errors', desc: 'Standardized formats improve data quality across billing cycles.' },
+  { title: 'Real-Time Validation', desc: 'Submit invoices for near real-time validation and compliance checks.' },
+  { title: 'IRN + QR Output', desc: 'Generate IRN references and QR verification for each validated invoice.' },
+  { title: 'JSON/XML Standard', desc: 'Exchange invoices in standardized machine-readable document structures.' },
 ]
 
 const capabilities = [
   {
     icon: FileCheck2,
     title: 'Invoice Lifecycle',
-    desc: 'Create, validate, transmit, and track invoice status from one operations view.',
+    desc: 'Create, validate, transmit, and track invoice status from one operational console.',
   },
   {
     icon: ArrowLeftRight,
@@ -22,7 +22,7 @@ const capabilities = [
   {
     icon: Landmark,
     title: 'Regulatory Alignment',
-    desc: 'Support structured reporting and document handling for local compliance needs.',
+    desc: 'Support Malaysia e-invoicing obligations with complete traceability and reporting support.',
   },
   {
     icon: Workflow,
@@ -75,8 +75,8 @@ export default function EInvoice() {
                 <span className="eyebrow">✦ e-Invoice</span>
                 <h1>Legally Compliant Digital Invoice Exchange</h1>
                 <p>
-                  Enable compliant electronic invoicing with standardized data flows,
-                  faster processing cycles, and better operational control across billing teams.
+                  One Invoice helps teams move from paper-heavy billing to compliant digital
+                  invoicing with real-time validation, IRN generation, and QR verification.
                 </p>
                 <div className="page-hero-actions">
                   <a className="btn btn-primary" href="/contact-us/">

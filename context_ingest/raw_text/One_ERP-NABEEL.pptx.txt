@@ -1,0 +1,249 @@
+--- Slide 1 ---
+Features
+Transform Your Business with Intelligent ERP
+Real-Time Data
+Automated Workflows
+Cloud-Based
+Fully Configurable
+Sales • Procurement • Inventory • Accounts • Complete Integration • Dashboards (Management wise, Module wise, Consolidated)
+
+HR, Payroll, Assets, Manufacturing, CRM
+
+--- Slide 2 ---
+ACCOUNTING 01
+Enables seamless financial management, including invoicing, payments, budgeting, and real-time reporting.
+PURCHASE 02
+Streamlines the procurement process by managing supplier quotations, purchase orders, receipts, and invoices all in one integrated workflow.
+INVENTORY 03
+Provides real time tracking and control of stock levels, warehouses, item movements, and valuations to ensure accurate inventory management across your operations.
+SALE 04
+Manages the complete sales cycle, from lead generation and quotations to sales orders, delivery, and invoicing, ensuring efficient and accurate order processing.
+Product Assebnly 05
+Entire production cycle from planning and raw material procurement to work orders, manufacturing, and finished goods tracking
+Modules
+STANDARD TRADING, SERVICES AND DISTRIBUTION
+
+--- Slide 3 ---
+Human Resource 01
+HR module streamlines the entire employee lifecycle from recruitment, onboarding, attendance, and Leave to appraisals, resignations, and final exit processes all in one integrated system.
+Payroll 02
+Payroll module efficiently manages salary structures, monthly and daily wage calculations, tax deductions, and automatic payroll processing with direct integration to attendance, timesheets, and accounting.
+CRM 03
+CRM module helps manage the complete customer journey from lead capture and tracking, to opportunity management, follow-ups, quotations, and customer communications all in one centralized system..
+Project 04
+Project module enables efficient planning, task assignment, time tracking, budgeting, and progress monitoring helping teams collaborate and deliver projects on time and within budget.
+Asset 05
+Asset module manages the entire asset lifecycle  from acquisition and depreciation to maintenance, movement, and disposal  ensuring accurate tracking and compliance.
+Adds-On Modules 
+(Integrated with Financial Modue)
+
+--- Slide 4 ---
+Accounts
+Integrated with All modules
+Marine Management
+Payments
+Advance / Against invoices
+Cost Optimization
+Budget management
+On transactions Vessel Information
+Each Sales invoice wise Profit and Lost Comparison
+Vessel Data in Transactions
+
+--- Slide 5 ---
+Accounts Features
+1. Multi Company Structure
+Can create Multiple Companies (Under one Umbrella )
+2. Chart of Accounts
+Consolidated and Independent COA
+3. System Configuration
+How each document affects the system
+4. Integration & Benefits
+Real-time updates and automation, API Integration with any third party (e.g. Exchange rate Integration)
+
+--- Slide 6 ---
+Procurement Cycle
+Efficient Material Management & Cost Control
+Automated Requests
+Auto reordering
+Supplier Comparison
+Best price selection
+Quality Control
+Inspection tracking
+
+--- Slide 7 ---
+Procurement Workflow - Complete Journey
+1
+Material Request
+Need Identified
+2
+Supplier Quote
+Price Comparison
+3
+Purchase Order
+Order Placed
+4
+Purchase Receipt
+Goods Received
+Auto Reordering
+Supplier Management
+Quality Inspection
+Cost Control
+
+--- Slide 8 ---
+Sales Cycle - Complete Journey
+1
+Quotation
+Price Proposal
+2
+Sales Order
+Confirmed Order
+3
+Delivery Note
+Goods Shipped
+4
+Sales Invoice
+Payment Due
+Zero Data Duplication
+Real-Time Updates
+Automated Accounting
+Full Audit Trail
+
+--- Slide 9 ---
+Step 1: Quotation
+Professional Price Proposals
+Settings Impact
+Customer Master
+Auto-fills customer details, contact, Vessel & IMO
+Price List
+Automatic item pricing based on customer type
+Terms & Conditions
+Default payment and delivery terms applied
+Print Format
+Branded PDF template with company logo
+Tax Template
+Region-based tax calculation (GST/VAT)
+Email Template
+Professional email format for sending quotes
+
+--- Slide 10 ---
+Step 2: Sales Order
+Order Confirmation & Processing
+Creation Methods
+1
+From Quotation
+One-click conversion • All data auto-filled • No reentry
+2
+Direct Entry
+Walk-in customers • Quick sales process • Immediate orders
+System Impact
+Stock Settings
+Reserves stock on order confirmation
+Performa Invoice
+Can send the Performa invoice for Advance payment
+Purchasing
+Triggers material requests for shortages
+Projects
+Creates project tasks for service items
+Payment Terms
+Applies default payment schedule
+Workflow
+Routes for approval based on amount
+
+--- Slide 11 ---
+Step 3: Delivery Note
+Goods Shipment & Tracking
+Workflow Process
+1
+Open Sales Order
+Create → Delivery Note
+System Impact
+Warehouse
+Stock ledger updated in real-time
+Stock Balance
+Available qty reduced automatically
+Valuation
+FIFO/Moving Average cost calculated
+Serial/Batch
+Item-wise tracking and traceability
+Packing Slip
+Custom templates for shipping labels
+Shipping
+Integration with courier partners
+
+--- Slide 12 ---
+Step 4: Sales Invoice
+Revenue Recognition & Accounting
+From Delivery Note
+Bill after goods shipped • Most common for B2B
+From Sales Order
+Bill before delivery • Advance payment scenarios
+Accounting Impact
+DEBIT: Accounts Receivable (Customer owes money)
+CREDIT: Sales Revenue Account (Income recorded)
+System Impact
+Chart of Accounts
+GL entries posted automatically
+Tax Templates
+Auto calculation of GST/VAT/Sales Tax
+Payment Terms
+Due date calculation based on terms
+
+--- Slide 13 ---
+System Integration & Configuration
+How Each Document Affects the System
+Master Data
+Company
+Customer
+Supplier
+Item
+Stock Settings
+Warehouse
+Reorder Levels
+Valuation
+Serial/Batch
+Accounts
+Chart of Accounts
+Tax Templates
+Payment Terms
+Mode of Payment
+Pricing
+Price Lists
+Discount Rules
+Pricing Rules
+Shipping Rules
+Workflows
+Approvals
+Notifications
+Email Alerts
+Permissions
+Customization
+Print Formats
+Email Templates
+Custom Fields
+Dashboards
+
+--- Slide 14 ---
+Why Choose ERP?
+Cost Savings
+Open source • No licensing fees • Unlimited users
+Efficiency
+Automated workflows • Zero duplicate entry • Real-time sync
+Visibility
+Real-time dashboards • Comprehensive reports • Analytics
+Compliance
+Complete audit trail • Tax compliance • Data security
+Scalability
+Grows with business • Modular design • Easy expansion
+Accessibility
+Cloud-based • Mobile responsive • 24/7 availability
+
+--- Slide 15 ---
+System Modules overview
+
+--- Slide 16 ---
+Dashboard Sample – Customizable drag and drop feature
+
+--- Slide 17 ---
+Thank You!
+Let's Transform Your Business Together
+ERP Implementation • Training • Support • Customization

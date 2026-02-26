@@ -3,19 +3,19 @@ import { motion, AnimatePresence, useMotionValue, useSpring, useTransform } from
 
 const reasons = [
   {
-    quote: 'Run onboarding, payroll setup, and workforce records from one streamlined HR flow.',
+    quote: 'Run onboarding, attendance, and payroll setup from one streamlined HR platform.',
     author: 'Faster HR Operations',
     role: 'Reduce manual admin in daily workforce management.',
     company: 'Workforce Setup',
   },
   {
-    quote: 'Automate wage calculations and compliance checks for accurate, on-time payroll cycles.',
-    author: 'Payroll Accuracy',
-    role: 'Lower payroll errors while meeting policy requirements.',
+    quote: 'Automate payroll with statutory support for KWSP, PERKESO, PCB, ePayslip, and EA forms.',
+    author: 'Statutory Readiness',
+    role: 'Lower payroll errors while meeting compliance obligations.',
     company: 'Compliance',
   },
   {
-    quote: 'Centralize employee data, approvals, and reporting to improve operational visibility.',
+    quote: 'Centralize employee data, approvals, and employer dashboards for operational visibility.',
     author: 'Unified Visibility',
     role: 'Keep HR, finance, and operations aligned.',
     company: 'Reporting',

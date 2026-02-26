@@ -3,19 +3,19 @@ import { motion, AnimatePresence, useMotionValue, useSpring, useTransform } from
 
 const reasons = [
   {
-    quote: 'Digitize wage disbursement with structured onboarding for workers and employers.',
-    author: 'Faster Wage Setup',
-    role: 'Reduce manual payout operations from day one.',
+    quote: 'Digitize wage disbursement with structured employer and worker enrollment.',
+    author: 'Faster Setup',
+    role: 'Reduce manual payout preparation from day one.',
     company: 'Onboarding',
   },
   {
-    quote: 'Improve transparency and compliance in payroll distribution for migrant workforces.',
+    quote: 'Support compliant payroll distribution with traceable transfer and confirmation records.',
     author: 'Compliance Visibility',
-    role: 'Track wage status with cleaner audit trails.',
+    role: 'Track wage status with audit-ready transfer history.',
     company: 'Compliance',
   },
   {
-    quote: 'Unify payout scheduling, confirmations, and reporting in one wage ecosystem.',
+    quote: 'Unify payout scheduling, exception handling, and reporting in one wage ecosystem.',
     author: 'Operational Control',
     role: 'Keep payroll teams aligned on disbursement cycles.',
     company: 'Payout Ops',

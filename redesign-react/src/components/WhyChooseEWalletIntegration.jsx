@@ -3,22 +3,22 @@ import { motion, AnimatePresence, useMotionValue, useSpring, useTransform } from
 
 const reasons = [
   {
-    quote: 'Connect wallets and channels quickly with production-ready APIs and webhooks.',
-    author: 'Fast Integration',
-    role: 'Reduce implementation time and rollout risk.',
-    company: 'API Layer',
+    quote: 'Integrate MiPay with portal APIs for structured wallet payout operations.',
+    author: 'API Integration',
+    role: 'Shorten implementation cycles with clear API contracts.',
+    company: 'Portal + Wallet',
   },
   {
-    quote: 'Sync payment status in real time for checkout, settlement, and reconciliation.',
-    author: 'Live Transaction Sync',
-    role: 'Give operations and finance immediate visibility.',
-    company: 'Real-Time Events',
+    quote: 'Trigger and track profit and bonus disbursement directly to member wallets.',
+    author: 'Payout Automation',
+    role: 'Improve payout consistency and turnaround time.',
+    company: 'Disbursement',
   },
   {
-    quote: 'Scale multi-wallet support while enforcing security and reliability controls.',
-    author: 'Scalable Connectivity',
-    role: 'Grow channels without fragmenting your payment stack.',
-    company: 'Multi Wallet',
+    quote: 'Maintain governance with role controls, audit trails, and status synchronization.',
+    author: 'Governance Visibility',
+    role: 'Give finance and operations full payout traceability.',
+    company: 'Controls',
   },
 ]
 

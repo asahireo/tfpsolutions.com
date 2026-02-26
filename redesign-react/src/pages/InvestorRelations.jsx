@@ -5,28 +5,27 @@ import { FileText, Megaphone, Newspaper, PieChart } from 'lucide-react'
 
 const isExternalUrl = (url) => typeof url === 'string' && /^https?:\/\//i.test(url)
 
-// Dummy data - in a real app this might come from a CMS or API
 const annualReports = [
-    { year: '2025', title: 'Annual Report 2025', url: '/agm-egm/#agm-2025-18th' },
-    { year: '2024', title: 'Annual Report 2024', url: '/agm-egm/#agm-2024-17th' },
-    { year: '2023', title: 'Annual Report 2023', url: '/agm-egm/#agm-2023-16th' },
-    { year: '2022', title: 'Annual Report 2022', url: '/agm-egm/#agm-2022-15th' },
+    { year: '2025', title: '18th AGM 2025 Materials', url: '/agm-egm/#agm-2025-18th' },
+    { year: '2024', title: '17th AGM 2024 Materials', url: '/agm-egm/#agm-2024-17th' },
+    { year: '2023', title: '16th AGM 2023 Materials', url: '/agm-egm/#agm-2023-16th' },
+    { year: '2022', title: '15th AGM 2022 Materials', url: '/agm-egm/#agm-2022-15th' },
 ]
 
 const financialReports = [
-    { quarter: 'Q1 2025', title: 'First Quarter Report', url: '#' },
-    { quarter: 'Q4 2024', title: 'Fourth Quarter Report', url: '#' },
-    { quarter: 'Q3 2024', title: 'Third Quarter Report', url: '#' },
+    { quarter: 'Q1 2026', title: 'Interim Financial Update', url: '/investor-relations/' },
+    { quarter: 'Q4 2025', title: 'Year-End Financial Update', url: '/investor-relations/' },
+    { quarter: 'Q3 2025', title: 'Quarterly Financial Update', url: '/investor-relations/' },
 ]
 
 const pressReleases = [
-    { date: 'Oct 2024', title: 'TFP Solutions Expands Fintech Reach', url: '#' },
-    { date: 'Aug 2024', title: 'New Partnership Announcement', url: '#' },
+    { date: 'Feb 2026', title: 'Product Training Workshop 2026: Built to Decide, Engineered to Deliver', url: '/investor-relations/' },
+    { date: 'Jan 2026', title: 'TFP Group Value Creation Plan 2026 Update', url: '/investor-relations/' },
 ]
 
 const announcements = [
-    { date: 'Dec 2024', title: 'Notice of EGM', url: '/agm-egm/#egm-2025' },
-    { date: 'Nov 2024', title: 'Change in Boardroom', url: '#' },
+    { date: 'Jan 2026', title: 'Notice of EGM 2025', url: '/agm-egm/#egm-2025' },
+    { date: 'Jan 2026', title: 'Minutes for 18th AGM', url: '/agm-egm/#agm-2025-18th' },
 ]
 
 const tabs = [
@@ -47,8 +46,8 @@ export default function InvestorRelations() {
                         <span className="eyebrow">✦ Investor Relations</span>
                         <h1>Transparency & Performance</h1>
                         <p>
-                            Access our latest financial reports, corporate announcements, and shareholder information.
-                            We are committed to clear and timely communication with our stakeholders.
+                            Access AGM/EGM records, announcements, and shareholder references in one place.
+                            TFP maintains a governance-led communication approach for all stakeholders.
                         </p>
                     </AnimatedSection>
                 </div>

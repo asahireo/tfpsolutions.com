@@ -2,14 +2,14 @@ import { AnimatedSection } from '../components/AnimatedSection'
 import { FeatureIcon } from '../components/FeatureIcon'
 import { OrbitalDeliverables } from '../components/OrbitalDeliverables'
 import { Timeline } from '../components/Timeline'
-import { services, values, growthIntegratedEngines } from '../siteData'
+import { values, growthIntegratedEngines } from '../siteData'
 
 const milestones = [
-  { year: '2007', title: 'Early foundations', desc: 'Started building enterprise payment and technology services for local businesses.' },
-  { year: '2013', title: 'Platform expansion', desc: 'Expanded into HR and business systems with integrated operations tooling.' },
-  { year: '2018', title: 'Ecosystem growth', desc: 'Strengthened partnerships and widened product offerings across industries.' },
-  { year: '2021', title: 'Regional readiness', desc: 'Hardened infrastructure and security posture for scale across SEA.' },
-  { year: 'Today', title: 'Integrated stack', desc: 'Delivering payment, payroll, recruitment, and cybersecurity solutions under one group.' },
+  { year: '2007', title: 'Foundation phase', desc: 'Started with software and technology services for enterprise clients.' },
+  { year: '2013', title: 'Platform expansion', desc: 'Expanded into integrated payments, HR, and business operations systems.' },
+  { year: '2020', title: 'Fintech acceleration', desc: 'Scaled cashless and digital ecosystem capabilities across group offerings.' },
+  { year: '2025', title: 'Operating model reset', desc: 'Aligned teams around KPI-led growth and execution governance.' },
+  { year: '2026', title: '4-engine strategy', desc: 'Structured growth across AI, fintech, workforce ecosystem, and enterprise SaaS.' },
 ]
 
 export default function AboutUs() {
@@ -38,8 +38,8 @@ export default function AboutUs() {
             <span className="eyebrow">✦ About Us</span>
             <h1>Built for operations. Driven by innovation.</h1>
             <p>
-              TFP Solutions Berhad is a publicly listed group delivering integrated fintech and
-              business platforms across Malaysia and the region.
+              TFP Solutions Berhad is a Bursa-listed group executing a 4 Growth Engine model
+              supported by 4 Execution Engines for disciplined, measurable delivery.
             </p>
             <div className="page-hero-actions">
               <a className="btn btn-primary" href="/contact-us/">Talk To Our Team</a>
@@ -53,7 +53,7 @@ export default function AboutUs() {
               </div>
               <div className="stat">
                 <strong>Integrated</strong>
-                <span className="stat-label">Payment and HR stack</span>
+                <span className="stat-label">4 growth engines</span>
               </div>
               <div className="stat">
                 <strong>Public</strong>
@@ -66,8 +66,8 @@ export default function AboutUs() {
             <div className="page-hero-panel">
               <div className="quote-card">
                 <p className="quote-text">
-                  We focus on the hard parts: settlement, compliance, payroll accuracy, security,
-                  and systems that keep running when businesses get busy.
+                  We focus on revenue-linked execution: platform delivery, governance discipline,
+                  and products that convert strategy into measurable outcomes.
                 </p>
                 <div className="quote-meta">
                   <span className="quote-dot" aria-hidden="true" />
@@ -77,13 +77,13 @@ export default function AboutUs() {
               <div className="stat-tiles">
                 <div className="stat-tile">
                   <span className="stat-tile-kicker">Coverage</span>
-                  <strong>Payments, HR, Security</strong>
-                  <p>One group, multiple specialist lines.</p>
+                  <strong>AI, Fintech, Workforce, SaaS</strong>
+                  <p>One group, four integrated growth engines.</p>
                 </div>
                 <div className="stat-tile">
                   <span className="stat-tile-kicker">Approach</span>
-                  <strong>Enterprise-grade</strong>
-                  <p>Built with governance, auditability, and uptime in mind.</p>
+                  <strong>Execution-first</strong>
+                  <p>Built on KPI ownership, governance, and delivery discipline.</p>
                 </div>
               </div>
             </div>
@@ -96,7 +96,7 @@ export default function AboutUs() {
           <AnimatedSection className="section-header">
             <h2 className="section-title">What We Deliver</h2>
             <p className="section-subtitle">
-              A practical stack of services designed to improve cashflow, efficiency, and resilience.
+              Integrated products and platforms aligned to the 2026 value creation roadmap.
             </p>
           </AnimatedSection>
           <AnimatedSection delay={0.05}>

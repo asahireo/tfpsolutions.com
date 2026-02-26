@@ -1,0 +1,56 @@
+# DATO RAHIM - R2H Townhall.pptx
+
+## Extracted slide/page text
+--- Slide 1 ---
+STRUCTURED TRANSFORMATION EXCELLENCE
+Hajj Umrah
+Installment based Plan
+Empowering Malaysian pilgrims with a disciplined savings mechanism and integrated financial tools for a seamless spiritual journey.
+PREPARED FOR
+Strategic Partners & Stakeholders
+DATE
+February 13, 2026
+Saudi Arabia
+Murthaza Hamzah
+Head of Transformation
+Datuk Hj Abdul Rahim
+Head of
+ Digitalization
+
+--- Slide 3 ---
+Strategic Partner & International Collaboration
+Travel Agency Channel
+Collaboration
+
+--- Slide 4 ---
+LAUNCHING MBO BANK (LABUAN) LIMITED:
+THE FUTURE OF ISLAMIC DIGITAL PILGRIMAGE FINANCE
+Built on Shariah compliance, sustainability through
+ESG investments, and positive community impact.
+Offering specialized savings accounts, flexible
+financing, and cross-border payment services.
+
+## OCR from embedded images / rendered pages
+--- Image 7: ppt/media/image11.png ---
+Road2Haramain : Digital Platform Ecosystem nl Introducer & Travel Agencies > > Acquire users > Commission: > Mutawwif: RM 50/month/user for 3 months > Participating Travel Agencies Pilgrims / Users > Book packages / Select Travel Agency > Pay saving instalments RM345/month to accumulate RM 6,900.00 (RM 345 x 20 months = RM 6,900) Travel Solutions Secure Funds (Instalment saving payments paid by the users) Hi, Nina! RM197.5000 Add Money Transfer Cashout Pay Bills Other Services Merchant MyPortal Invite Renew List Friends Insurance Road2Haramain | ) Highlights OneCENT Make SENSE Total Saving: RM2,760.00 fi © Nome Account aes a Uae: = A =<
+
+--- Image 21: ppt/media/image24.png ---
+( Hajj and Umrah HUITM
+
+--- Image 24: ppt/media/image27.png ---
+3 MANASEEK © ALL IN ONE SOLUTION FOR UMRAH AND HAJJ
+
+--- Image 27: ppt/media/image3.png ---
+CC ‘($$$ §§§§€‘‘‘CFCFUCUUO —“Kn—r—— FE
+
+--- Image 29: ppt/media/image31.png ---
+> BKTRAVEL Crpervence (he (Jord!
+
+--- Image 31: ppt/media/image33.png ---
+Tarikh Sabtu; 28 Februari 2026, 10 Ramadan Masa 01:00 petang - 09:00 malam (waktu Malaysia) Tempat 1.Kuala Lumpur (Malaysia) 2. Patani (Thailand) 3.Medan (Indonesia) 4.Phnom Penh (Kemboja) 5.Cebu (Filipina) Lokasi Serentak Malaysia, Indonesia & Thailand (Livestream Utama) Kemboja & Filipina (Livestream sokongan)
+
+--- Image 32: ppt/media/image34.png ---
+Anak PROPOSAL IFTAR SERIBU ANAK YATIM NUSANTARA ERR
+
+--- Image 34: ppt/media/image36.png ---
+FIRST LABUAN FSA-LICENSED STRATEGIC GLOBAL LAUNCH: DEDICATED TO ISLAMIC DIGITAL BANK | AUGUST 2026 PILGRIMAGE FINANCE Ah LABUAN l) | == HAI & Iii FSA Ws, Gan Pioneering specialized financial Purpose-built to address unique services with full regulatory financial needs of Hajj and Umrah compliance from Labuan Financial Positioned at the intersection of pilgrims worldwide. Services Authority. finance, technology and faith with Shariah-compliant framework. jf COMPREHENSIVE DIGITAL SOLUTIONS @ 6? THREE CORE PILLARS D = @ SPECIALIZED FLEXIBLE CROSS-BORDER SAVINGS ACCOUNTS FINANCING PAYMENTS SHARIAH SUSTAINABILITY COMMUNITY COMPLIANCE (ESG) IMPACT
