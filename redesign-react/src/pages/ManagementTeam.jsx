@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { AnimatedSection } from '../components/AnimatedSection'
 import { AnimatedTooltip } from '../components/AnimatedTooltip'
 import { FeatureIcon } from '../components/FeatureIcon'
+import { resolveAssetPath } from '../lib/resolveAssetPath'
 import { managementTeam } from '../siteData'
 
 const filters = ['All', ...Array.from(new Set(managementTeam.flatMap((person) => person.tags || [])))]
@@ -125,7 +126,7 @@ export default function ManagementTeam() {
               <AnimatedSection key={p.name} delay={i * 0.05}>
                 <article className="team-card">
                   <div className="team-card-media">
-                    <img src={p.image} alt={p.name} loading="lazy" />
+                    <img src={resolveAssetPath(p.image)} alt={p.name} loading="lazy" />
                   </div>
                   <div className="team-card-body">
                     <div className="team-card-header">

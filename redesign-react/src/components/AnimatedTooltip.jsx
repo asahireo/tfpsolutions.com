@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { motion, useTransform, AnimatePresence, useMotionValue, useSpring } from 'framer-motion'
+import { resolveAssetPath } from '../lib/resolveAssetPath'
 
 const TypewriterText = ({ text, delay = 0 }) => {
     // Split text into words or characters. 
@@ -119,7 +120,7 @@ export const AnimatedTooltip = ({ items }) => {
                         >
                             <img
                                 onMouseMove={handleMouseMove}
-                                src={item.image}
+                                src={resolveAssetPath(item.image)}
                                 alt={item.name}
                                 className="tooltip-image"
                                 loading="lazy"

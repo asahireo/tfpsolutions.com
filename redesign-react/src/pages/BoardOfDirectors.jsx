@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { AnimatedSection } from '../components/AnimatedSection'
 import { boardMembers } from '../siteData'
+import { resolveAssetPath } from '../lib/resolveAssetPath'
 
 function getParagraphs(text) {
   return (text || '').split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean)
@@ -24,7 +25,7 @@ function MemberMedia({ member, className }) {
 
   return (
     <img
-      src={member.image}
+      src={resolveAssetPath(member.image)}
       alt={member.name}
       className={className}
       loading="lazy"
