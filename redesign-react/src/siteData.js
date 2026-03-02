@@ -508,8 +508,8 @@ Dato’ Hussian has been an entrepreneur since in his mid-20s. He was involved i
   {
     name: 'Dato’ Haris Bin Ismail',
     role: 'Corporate Advisor',
-    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=900',
-    imagePosition: 'center 36%',
+    image: null,
+    avatarType: 'default',
     bio: 'Profile details to be updated upon final confirmation. This entry is reserved for Director, A.I. & Analytics.',
   },
   {
@@ -573,7 +573,7 @@ export const managementTeam = [
   {
     name: 'Encik Daniel Mohamed',
     role: 'BDD',
-    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=900',
+    image: '/images/management/encik-daniel-mohamed.png',
     tags: ['Leadership', 'Business Development', 'Revenue'],
     unit: 'TFP Group of Companies',
   },

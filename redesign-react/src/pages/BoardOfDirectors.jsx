@@ -6,6 +6,33 @@ function getParagraphs(text) {
   return (text || '').split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean)
 }
 
+function DefaultAvatar({ name, className }) {
+  return (
+    <div className={`${className} board-accordion-avatar-fallback`} aria-label={name} role="img">
+      <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+        <circle cx="32" cy="24" r="12" />
+        <path d="M14 54c1.8-11.3 9.4-17 18-17s16.2 5.7 18 17" />
+      </svg>
+    </div>
+  )
+}
+
+function MemberMedia({ member, className }) {
+  if (!member.image || member.avatarType === 'default') {
+    return <DefaultAvatar name={member.name} className={className} />
+  }
+
+  return (
+    <img
+      src={member.image}
+      alt={member.name}
+      className={className}
+      loading="lazy"
+      style={{ objectPosition: member.imagePosition || 'center 34%' }}
+    />
+  )
+}
+
 export default function BoardOfDirectors() {
   const [openName, setOpenName] = useState(boardMembers[0]?.name || null)
 
@@ -45,13 +72,7 @@ export default function BoardOfDirectors() {
                       onClick={() => setOpenName((prev) => (prev === member.name ? null : member.name))}
                     >
                       <div className="board-accordion-leading">
-                        <img
-                          src={member.image}
-                          alt={member.name}
-                          className="board-accordion-avatar"
-                          loading="lazy"
-                          style={{ objectPosition: member.imagePosition || 'center 34%' }}
-                        />
+                        <MemberMedia member={member} className="board-accordion-avatar" />
                         <div className="board-accordion-heading">
                           <h3>{member.name}</h3>
                           <p>{member.role}</p>
@@ -71,12 +92,7 @@ export default function BoardOfDirectors() {
                     >
                       <div className="board-accordion-panel-inner">
                         <div className="board-accordion-detail-media">
-                          <img
-                            src={member.image}
-                            alt={member.name}
-                            loading="lazy"
-                            style={{ objectPosition: member.imagePosition || 'center 34%' }}
-                          />
+                          <MemberMedia member={member} className="board-accordion-detail-portrait" />
                         </div>
                         <div className="board-accordion-detail-text">
                           {paragraphs.map((paragraph, idx) => (
